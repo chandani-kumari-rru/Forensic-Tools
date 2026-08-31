@@ -11,7 +11,7 @@
 | [Click]()     | EWF Tools         | Tools for creating and handling Expert Witness Format (EWF) images, often used in digital forensics                   |
 | [Click]()     | KAPE              | live data acquisition and analysis tool                   |
 
-## Windows Artifact i.e. Timestamp Analysis Tool
+## Windows Artifact (i.e. Timestamp) Analysis Tool
 | Download      | Registry Tools    | Description
 | ------------- | ----------------  | ------------------------------------------------------------------------------------------------------ |
 | [Click]()     | UserAssist        | limitations: It only loads one hive at a time, and it can't take the transaction logs into account.                   |
