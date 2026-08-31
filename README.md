@@ -97,7 +97,6 @@ Prefetch
 | Download | Tool | Description |
 |---|---|---|
 | [Click](https://volatilityfoundation.org/) | **Volatility 3** | Open-source memory forensics framework for analyzing RAM captures and extracting processes, network information, handles, DLLs, and other artifacts. |
-| [Click](https://github.com/volatilityfoundation/volatility3) | **Volatility 3 GitHub** | Source code and plugins for the Volatility 3 framework. |
 | [Click](https://github.com/504ensicsLabs/LiME) | **LiME** | Linux Memory Extractor used to acquire volatile memory from Linux and Android systems. |
 | [Click](https://github.com/Velocidex/velociraptor) | **Velociraptor** | Endpoint visibility, digital forensic collection, and incident-response platform capable of collecting volatile and persistent artifacts. |
 | [Click](https://github.com/ufrisk/MemProcFS) | **MemProcFS** | Memory-analysis framework that presents a memory dump as a virtual file system for forensic investigation. |
