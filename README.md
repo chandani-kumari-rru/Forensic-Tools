@@ -14,13 +14,6 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | E01 / EWF Analysis | libewf, Autopsy, The Sleuth Kit |
 | File Carving | PhotoRec, Scalpel, Foremost, Autopsy |
 | Windows Registry | Registry Explorer, RECmd |
-| AmCache | AmcacheParser |
-| ShimCache | AppCompatCacheParser |
-| BAM/DAM | BAMParser |
-| UserAssist | UserAssist |
-| Prefetch | PECmd |
-| LNK Files | LECmd |
-| Jump Lists | JLECmd |
 | Memory Analysis | Volatility, MemProcFS |
 | Network / PCAP | Wireshark, TShark, tcpdump, NetworkMiner |
 | Disk / File System | Autopsy, The Sleuth Kit |
