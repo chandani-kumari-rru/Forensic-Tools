@@ -5,12 +5,82 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 > **Note:** Always verify tool versions, licenses, and acquisition procedures before using any forensic tool in a real investigation. Preserve original evidence and work on forensic copies whenever possible.
 
 ---
+# 🔎 Quick DFIR Tool Selection Guide
 
+| Investigation Task | Recommended Tools |
+|---|---|
+| Disk Imaging | FTK Imager, Guymager, dc3dd, dd |
+| Damaged Disk Acquisition | GNU ddrescue |
+| E01 / EWF Analysis | libewf, Autopsy, The Sleuth Kit |
+| File Carving | PhotoRec, Scalpel, Foremost, Autopsy |
+| Windows Registry | Registry Explorer, RECmd |
+| AmCache | AmcacheParser |
+| ShimCache | AppCompatCacheParser |
+| BAM/DAM | BAMParser |
+| UserAssist | UserAssist |
+| Prefetch | PECmd |
+| LNK Files | LECmd |
+| Jump Lists | JLECmd |
+| Memory Analysis | Volatility, MemProcFS |
+| Network / PCAP | Wireshark, TShark, tcpdump, NetworkMiner |
+| Disk / File System | Autopsy, The Sleuth Kit |
+| Mobile Forensics | Cellebrite UFED, Magnet AXIOM, Oxygen Forensic Detective |
+| Browser Artifacts | Hindsight, Autopsy |
+| Timeline | Plaso, Timeline Explorer, Autopsy |
+| Malware Analysis | Ghidra, IDA Pro, x64dbg, radare2 |
+| Rapid Triage | KAPE, Velociraptor |
+| Hash Verification | SHA-256, md5sum, HashCheck |
+
+---
+
+# 🧪 Suggested Digital Forensics Workflow
+
+```text
+                    DIGITAL FORENSICS
+                           │
+                           ▼
+                  Evidence Identification
+                           │
+                           ▼
+                       Preservation
+                           │
+                           ▼
+                  Forensic Acquisition
+                           │
+                           ▼
+                    Hash Verification
+                           │
+                           ▼
+              +------------+------------+
+              │            │            │
+              ▼            ▼            ▼
+          Disk/FS       Memory       Network
+          Analysis      Analysis      Analysis
+              │            │            │
+              +------------+------------+
+                           │
+                           ▼
+                   Artifact Extraction
+                           │
+                           ▼
+                   Timeline Analysis
+                           │
+                           ▼
+                   Evidence Correlation
+                           │
+                           ▼
+                  Findings & Reporting
+                           │
+                           ▼
+                       Presentation
+```
+
+---
 ## 📑 Table of Contents
 
 - [Forensic Imaging Tools](#forensic-imaging-tools)
 - [Forensic Carving Tools](#forensic-carving-tools)
-- [Windows Artifact / Timestamp Analysis Tools](#windows-artifact--timestamp-analysis-tools)
+- [Windows Artifact Analysis Tools](#windows-artifact-analysis-tools)
 - [Memory Forensic Tools](#memory-forensic-tools)
 - [Network Forensic Tools](#network-forensic-tools)
 - [Disk & File-System Forensic Tools](#disk--file-system-forensic-tools)
@@ -21,6 +91,8 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 - [Malware Analysis / Reverse Engineering Tools](#malware-analysis--reverse-engineering-tools)
 - [Hashing & Evidence Verification Tools](#hashing--evidence-verification-tools)
 - [Incident Response / Triage Tools](#incident-response--triage-tools)
+- [Quick DFIR Tool Selection Guide](#-quick-dfir-tool-selection-guide)
+- [Suggested Digital Forensics Workflow](#-suggested-digital-forensics-workflow)
 
 ---
 
@@ -50,7 +122,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 
 ---
 
-# Windows Artifact / Timestamp Analysis Tools
+# Windows Artifact Analysis Tools
 
 | Download | Tool | Primary Use |
 |---|---|---|
@@ -171,9 +243,8 @@ Evidence Correlation & Reporting
 
 | Download | Tool | Description |
 |---|---|---|
-| [Click](https://github.com/EricZimmerman/Hindsight) | **Hindsight** | Extracts and analyzes Chromium-based browser artifacts such as history, downloads, cookies, and cache-related data. |
-| [Click](https://github.com/obsidianforensics/hindsight) | **Hindsight GitHub** | Source code and releases for browser artifact analysis. |
-| [Click](https://github.com/obsidianforensics/plaso) | **Plaso** | Framework for extracting timestamped events from many forensic artifact sources. |
+| [Click](https://github.com/obsidianforensics/hindsight) | **Hindsight** | Extracts and analyzes Chromium-based browser artifacts such as history, downloads, cookies, and cache-related data. |
+| [Click](https://github.com/log2timeline/plaso) | **Plaso** | Framework for extracting timestamped events from many forensic artifact sources. |
 | [Click](https://www.sleuthkit.org/autopsy/) | **Autopsy** | Supports browser history, downloads, cookies, web artifacts, and other Internet-related evidence. |
 
 ### Common Browser Artifacts
@@ -224,7 +295,6 @@ SPF / DKIM / DMARC
 | Download | Tool | Description |
 |---|---|---|
 | [Click](https://github.com/log2timeline/plaso) | **Plaso / log2timeline** | Creates super timelines by extracting timestamped events from many forensic artifacts. |
-| [Click](https://github.com/4n6k/Plaso) | **Plaso** | Framework for automated extraction of forensic timeline events. |
 | [Click](https://github.com/EricZimmerman/TimelineExplorer) | **Timeline Explorer** | GUI application for viewing, filtering, and analyzing large forensic timeline datasets. |
 | [Click](https://www.sleuthkit.org/autopsy/) | **Autopsy Timeline** | Provides timeline visualization and event analysis within Autopsy. |
 
@@ -261,7 +331,7 @@ Final Event Timeline
 | [Click](https://x64dbg.com/) | **x64dbg** | Open-source debugger for Windows applications. |
 | [Click](https://github.com/radareorg/radare2) | **radare2** | Open-source reverse-engineering framework for binary analysis. |
 | [Click](https://cuckoosandbox.org/) | **Cuckoo Sandbox** | Automated malware-analysis and sandboxing framework. |
-| [Click](https://virustotal.com/) | **VirusTotal** | Online service for analyzing files, URLs, domains, and IP addresses using multiple security engines and intelligence sources. |
+| [Click](https://www.virustotal.com/) | **VirusTotal** | Online service for analyzing files, URLs, domains, and IP addresses using multiple security engines and intelligence sources. |
 
 ---
 
@@ -305,151 +375,8 @@ Forensic Report
 | [Click](https://www.kroll.com/en/insights/publications/cyber/kape) | **KAPE** | Rapid collection and processing of Windows forensic artifacts. |
 | [Click](https://www.velociraptor.com/) | **Velociraptor** | Endpoint monitoring, forensic collection, and incident-response platform. |
 | [Click](https://github.com/ForensicArtifacts/artifacts) | **Forensic Artifacts** | Repository describing common forensic artifacts and their locations across operating systems. |
-| [Click](https://github.com/ForensicArtifacts/artifacts) | **Artifact Definitions** | Structured definitions used to describe forensic artifacts for automated collection and processing. |
 | [Click](https://github.com/fox-it/Dissect) | **Dissect** | Python-based DFIR framework for examining forensic evidence at scale. |
 | [Click](https://github.com/DidierStevens/DidierStevensSuite) | **Didier Stevens Suite** | Collection of Windows forensic, malware-analysis, and incident-response utilities. |
 
 ---
-
-# 🔎 Quick DFIR Tool Selection Guide
-
-| Investigation Task | Recommended Tools |
-|---|---|
-| Disk Imaging | FTK Imager, Guymager, dc3dd, dd |
-| Damaged Disk Acquisition | GNU ddrescue |
-| E01 / EWF Analysis | libewf, Autopsy, The Sleuth Kit |
-| File Carving | PhotoRec, Scalpel, Foremost, Autopsy |
-| Windows Registry | Registry Explorer, RECmd |
-| AmCache | AmcacheParser |
-| ShimCache | AppCompatCacheParser |
-| BAM/DAM | BAMParser |
-| UserAssist | UserAssist |
-| Prefetch | PECmd |
-| LNK Files | LECmd |
-| Jump Lists | JLECmd |
-| Memory Analysis | Volatility 3, MemProcFS |
-| Network / PCAP | Wireshark, TShark, tcpdump, NetworkMiner |
-| Disk / File System | Autopsy, The Sleuth Kit |
-| Mobile Forensics | Cellebrite UFED, Magnet AXIOM, Oxygen Forensic Detective |
-| Browser Artifacts | Hindsight, Autopsy |
-| Timeline | Plaso, Timeline Explorer, Autopsy |
-| Malware Analysis | Ghidra, IDA Pro, x64dbg, radare2 |
-| Rapid Triage | KAPE, Velociraptor |
-| Hash Verification | SHA-256, md5sum, HashCheck |
-
----
-
-# 🧪 Suggested Digital Forensics Workflow
-
-```text
-                    DIGITAL FORENSICS
-                           │
-                           ▼
-                  Evidence Identification
-                           │
-                           ▼
-                    Preservation
-                           │
-                           ▼
-                  Forensic Acquisition
-                           │
-                           ▼
-                    Hash Verification
-                           │
-                           ▼
-              +------------+------------+
-              │            │            │
-              ▼            ▼            ▼
-          Disk/FS       Memory       Network
-          Analysis      Analysis      Analysis
-              │            │            │
-              +------------+------------+
-                           │
-                           ▼
-                   Artifact Extraction
-                           │
-                           ▼
-                   Timeline Analysis
-                           │
-                           ▼
-                   Evidence Correlation
-                           │
-                           ▼
-                  Findings & Reporting
-                           │
-                           ▼
-                    Presentation
-```
-
----
-
-# ⚠️ Forensic Best Practices
-
-- **Preserve the original evidence** and perform analysis on forensic copies whenever possible.
-- Use **write blockers** when acquiring physical storage media.
-- Calculate and record cryptographic hashes before and after acquisition where appropriate.
-- Maintain a complete **chain of custody**.
-- Record the **tool name, version, configuration, date/time, examiner, and acquisition method**.
-- Keep detailed acquisition and analysis logs.
-- Do not modify evidence unnecessarily.
-- Correlate multiple independent artifacts before reaching a conclusion.
-- Understand the **timestamp semantics** of each artifact instead of treating every timestamp as proof of user activity.
-- Validate important findings with more than one forensic source or technique.
-- Follow applicable organizational policies, legal requirements, and forensic standards.
-
----
-
-# 📚 Useful DFIR Resources
-
-| Resource | Description |
-|---|---|
-| [NIST Computer Security Resource Center](https://csrc.nist.gov/) | Digital forensics, incident response, cybersecurity standards, and publications. |
-| [NIST SP 800-86](https://csrc.nist.gov/publications/detail/sp/800-86/final) | Guide to integrating forensic techniques into incident response. |
-| [The Sleuth Kit](https://www.sleuthkit.org/) | Open-source digital forensic tools and libraries. |
-| [Autopsy](https://www.autopsy.com/) | Open-source digital forensics platform. |
-| [Volatility Foundation](https://volatilityfoundation.org/) | Memory-forensics framework and resources. |
-| [Eric Zimmerman's Tools](https://ericzimmerman.github.io/) | Large collection of Windows forensic artifact parsers and DFIR utilities. |
-
----
-
-## ⭐ Recommended Beginner Toolkit
-
-If you are starting **Digital Forensics / DFIR**, a practical learning toolkit is:
-
-```text
-FTK Imager
-      ↓
-Autopsy
-      ↓
-The Sleuth Kit
-      ↓
-Eric Zimmerman's Tools
-      ↓
-Volatility 3
-      ↓
-Wireshark
-      ↓
-KAPE
-      ↓
-Plaso
-      ↓
-Ghidra
-```
-
-These tools provide hands-on exposure to **disk imaging, file-system analysis, Windows artifacts, memory forensics, network forensics, timeline analysis, malware analysis, and incident-response triage**.
-
----
-
-## 📌 Disclaimer
-
-This repository is intended for **education, research, authorized digital-forensics investigations, and cybersecurity incident response**. Only examine devices, systems, networks, and digital evidence when you have appropriate authorization.
-
----
-
-## 👤 Author
-
-**Chandani Kumari**  
-Master's Student | Criminology & Forensic Science | Digital Forensics | Cyber Crime Investigation
-
-
 
