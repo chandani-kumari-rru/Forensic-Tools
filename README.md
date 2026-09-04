@@ -10,13 +10,10 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | Investigation Task | Recommended Tools |
 |---|---|
 | Imaging Tool| FTK Imager(windows), Lime(Linux), osxpmem(mac) |
-| Damaged Disk Acquisition | GNU ddrescue |
-| E01 / EWF Analysis | libewf, Autopsy, The Sleuth Kit |
 | File Carving | PhotoRec, Scalpel, Foremost, Autopsy |
 | Windows Registry | Registry Explorer, RECmd |
 | Memory Analysis | Volatility, MemProcFS |
 | Network / PCAP | Wireshark, TShark, tcpdump, NetworkMiner |
-| Disk / File System | Autopsy, The Sleuth Kit |
 | Mobile Forensics | Cellebrite UFED, Magnet AXIOM, Oxygen Forensic Detective |
 | Browser Artifacts | Hindsight, Autopsy |
 | Timeline | Plaso, Timeline Explorer, Autopsy |
