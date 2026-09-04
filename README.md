@@ -14,9 +14,6 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | Memory Analysis | Volatility, MemProcFS |
 | Network / PCAP | Wireshark, TShark, tcpdump, NetworkMiner |
 | Mobile Forensics | Cellebrite UFED, Magnet AXIOM, Oxygen Forensic Detective |
-| Browser Artifacts | Hindsight, Autopsy |
-| Timeline | Plaso, Timeline Explorer, Autopsy |
-| Malware Analysis | Ghidra, IDA Pro, x64dbg, radare2 |
 
 ---
 
