@@ -18,8 +18,6 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | Browser Artifacts | Hindsight, Autopsy |
 | Timeline | Plaso, Timeline Explorer, Autopsy |
 | Malware Analysis | Ghidra, IDA Pro, x64dbg, radare2 |
-| Rapid Triage | KAPE, Velociraptor |
-| Hash Verification | SHA-256, md5sum, HashCheck |
 
 ---
 
