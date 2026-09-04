@@ -9,7 +9,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 
 | Investigation Task | Recommended Tools |
 |---|---|
-| Disk Imaging | FTK Imager, Guymager, dc3dd, dd |
+| Imaging Tool| FTK Imager(windows), Lime(Linux), osxpmem(mac) |
 | Damaged Disk Acquisition | GNU ddrescue |
 | E01 / EWF Analysis | libewf, Autopsy, The Sleuth Kit |
 | File Carving | PhotoRec, Scalpel, Foremost, Autopsy |
