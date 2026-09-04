@@ -11,7 +11,6 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 |---|---|
 | Imaging Tool| FTK Imager(windows), Lime(Linux), osxpmem(mac) |
 | File Carving | PhotoRec, Scalpel, Foremost, Autopsy |
-| Windows Registry | Registry Explorer, RECmd |
 | Memory Analysis | Volatility, MemProcFS |
 | Network / PCAP | Wireshark, TShark, tcpdump, NetworkMiner |
 | Mobile Forensics | Cellebrite UFED, Magnet AXIOM, Oxygen Forensic Detective |
