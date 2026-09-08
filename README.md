@@ -13,7 +13,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | File Carving Tool | Autopsy/PhotoRec/Scalpel (Cross-Platform Tools)|
 | Memory Analysis | Volatility, MemProcFS |
 | Network / PCAP | Wireshark, TShark, tcpdump, NetworkMiner |
-| Mobile Forensics | Cellebrite UFED, Magnet AXIOM, Oxygen Forensic Detective |
+| Mobile Forensics | Oxygen, MOBILedit, Cellebrite UFED, Magnet AXIOM |
 | Extract Metadata | ExifTool|
 
 ---
