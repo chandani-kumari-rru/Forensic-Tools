@@ -70,7 +70,6 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 - [Network Forensic Tools](#network-forensic-tools)
 - [Mobile Forensic Tools](#mobile-forensic-tools)
 - [Incident Response / Triage Tools](#incident-response--triage-tools)
-- [Malware Analysis / Reverse Engineering Tools](#malware-analysis--reverse-engineering-tools)
 
 ---
 
@@ -91,12 +90,9 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 
 | Download | Forensic Tool | Description |
 |---|---|---|
-| [Click](https://www.gnu.org/software/coreutils/manual/html_node/dd-invocation.html) | **dd** | Standard Unix utility used for bit-by-bit copying and creating raw disk images. |
-| [Click](https://sourceforge.net/projects/dc3dd/) | **dc3dd** | Enhanced forensic version of `dd` with hashing, logging, and verification capabilities. |
-| [Click](https://www.gnu.org/software/ddrescue/) | **GNU ddrescue** | Data-recovery utility designed to efficiently recover data from damaged or failing storage media. |
 | [Click](https://www.exterro.com/ftk-product-downloads/ftk-imager-version-4-7-1) | **FTK Imager** | GUI-based forensic acquisition and preview tool for creating and verifying forensic images. |
+| [Click](https://www.gnu.org/software/coreutils/manual/html_node/dd-invocation.html) | **dd/dc3dd** | Standard Unix utility used for bit-by-bit copying and creating raw disk images. |
 | [Click](https://guymager.sourceforge.io/) | **Guymager** | Open-source GUI forensic imager supporting raw and EWF image formats with detailed acquisition logs. |
-| [Click](https://github.com/libyal/libewf) | **libewf / EWF Tools** | Open-source library and utilities for handling Expert Witness Format (E01/EWF) forensic images. |
 | [Click](https://www.kroll.com/en/insights/publications/cyber/kape) | **KAPE** | Rapid triage and forensic artifact collection tool for Windows systems. |
 
 ---
@@ -149,7 +145,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 ---
 
 
-# Incident Response / Triage Tools
+# Incident Response 
 
 | Download | Tool | Description |
 |---|---|---|
@@ -159,15 +155,3 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | [Click](https://github.com/fox-it/Dissect) | **Dissect** | Python-based DFIR framework for examining forensic evidence at scale. |
 | [Click](https://github.com/DidierStevens/DidierStevensSuite) | **Didier Stevens Suite** | Collection of Windows forensic, malware-analysis, and incident-response utilities. |
 
----
-
-# Malware Analysis / Reverse Engineering Tools
-
-| Download | Tool | Description |
-|---|---|---|
-| [Click](https://www.ghidra-sre.org/) | **Ghidra** | NSA-developed software reverse-engineering framework for analyzing compiled programs. |
-| [Click](https://hex-rays.com/ida-pro/) | **IDA Pro** | Commercial disassembler and debugger widely used for reverse engineering. |
-| [Click](https://x64dbg.com/) | **x64dbg** | Open-source debugger for Windows applications. |
-| [Click](https://github.com/radareorg/radare2) | **radare2** | Open-source reverse-engineering framework for binary analysis. |
-| [Click](https://cuckoosandbox.org/) | **Cuckoo Sandbox** | Automated malware-analysis and sandboxing framework. |
-| [Click](https://www.virustotal.com/) | **VirusTotal** | Online service for analyzing files, URLs, domains, and IP addresses using multiple security engines and intelligence sources. |
