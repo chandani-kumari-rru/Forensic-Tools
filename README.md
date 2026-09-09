@@ -70,15 +70,9 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 - [Network Forensic Tools](#network-forensic-tools)
 - [Disk & File-System Forensic Tools](#disk--file-system-forensic-tools)
 - [Mobile Forensic Tools](#mobile-forensic-tools)
-- [Browser & Internet Artifact Tools](#browser--internet-artifact-tools)
 - [Email Forensic Tools](#email-forensic-tools)
-- [Timeline Analysis Tools](#timeline-analysis-tools)
-- [Malware Analysis / Reverse Engineering Tools](#malware-analysis--reverse-engineering-tools)
-- [Hashing & Evidence Verification Tools](#hashing--evidence-verification-tools)
 - [Incident Response / Triage Tools](#incident-response--triage-tools)
-- [Quick DFIR Tool Selection Guide](#-quick-dfir-tool-selection-guide)
-- [Suggested Digital Forensics Workflow](#-suggested-digital-forensics-workflow)
-
+- [Malware Analysis / Reverse Engineering Tools](#malware-analysis--reverse-engineering-tools)
 
 ---
 
@@ -88,10 +82,10 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | Purpose | Tool | Type |
 |---|---|---|
 | Disk Artifact Tool | [Autopsy](https://www.autopsy.com/) | GUI,Freemium |
+| Browser & Internet Artifact Tools | [Autopsy](https://www.autopsy.com/), [Plaso](https://github.com/log2timeline/plaso) | GUI,Freemium |
 | Memory Artifact Tool | [Volatility](https://volatilityfoundation.org/) | GUI,Freemium |
 | Network Artifact Tool | [Wireshark](https://www.wireshark.org/) | GUI,Freemium |
 | Windows Registry Tool | [Eric Zimmerman's Tools](https://github.com/EricZimmerman/RECmd) | Command-line, Freemium|
-
 
 ---
 
@@ -175,18 +169,6 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 
 > Commercial tools may require a license, dongle, account, or institutional authorization.
 
----
-
-# Browser & Internet Artifact Tools
-
-| Download | Tool | Description |
-|---|---|---|
-| [Click](https://github.com/obsidianforensics/hindsight) | **Hindsight** | Extracts and analyzes Chromium-based browser artifacts such as history, downloads, cookies, and cache-related data. |
-| [Click](https://github.com/log2timeline/plaso) | **Plaso** | Framework for extracting timestamped events from many forensic artifact sources. |
-| [Click](https://www.sleuthkit.org/autopsy/) | **Autopsy** | Supports browser history, downloads, cookies, web artifacts, and other Internet-related evidence. |
-
-### Common Browser Artifacts
-
 
 ---
 
@@ -200,51 +182,6 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | [Click](https://www.maltiverse.com/) | **Maltiverse** | Threat-intelligence platform that can help investigate indicators extracted from suspicious messages or attachments. |
 
 ### Important Email Evidence
-
-
----
-
-# Timeline Analysis Tools
-
-| Download | Tool | Description |
-|---|---|---|
-| [Click](https://github.com/log2timeline/plaso) | **Plaso / log2timeline** | Creates super timelines by extracting timestamped events from many forensic artifacts. |
-| [Click](https://github.com/EricZimmerman/TimelineExplorer) | **Timeline Explorer** | GUI application for viewing, filtering, and analyzing large forensic timeline datasets. |
-| [Click](https://www.sleuthkit.org/autopsy/) | **Autopsy Timeline** | Provides timeline visualization and event analysis within Autopsy. |
-
-### Timeline Correlation
-
-
-
----
-
-# Malware Analysis / Reverse Engineering Tools
-
-| Download | Tool | Description |
-|---|---|---|
-| [Click](https://www.ghidra-sre.org/) | **Ghidra** | NSA-developed software reverse-engineering framework for analyzing compiled programs. |
-| [Click](https://hex-rays.com/ida-pro/) | **IDA Pro** | Commercial disassembler and debugger widely used for reverse engineering. |
-| [Click](https://x64dbg.com/) | **x64dbg** | Open-source debugger for Windows applications. |
-| [Click](https://github.com/radareorg/radare2) | **radare2** | Open-source reverse-engineering framework for binary analysis. |
-| [Click](https://cuckoosandbox.org/) | **Cuckoo Sandbox** | Automated malware-analysis and sandboxing framework. |
-| [Click](https://www.virustotal.com/) | **VirusTotal** | Online service for analyzing files, URLs, domains, and IP addresses using multiple security engines and intelligence sources. |
-
----
-
-# Hashing & Evidence Verification Tools
-
-| Download | Tool | Description |
-|---|---|---|
-| [Click](https://www.gnu.org/software/coreutils/manual/html_node/md5sum-invocation.html) | **md5sum** | Generates MD5 hashes for integrity verification and identification. |
-| [Click](https://www.gnu.org/software/coreutils/manual/html_node/sha2-utilities.html) | **sha256sum** | Generates SHA-256 hashes for evidence integrity verification. |
-| [Click](https://www.nist.gov/publications/secure-hash-standard) | **SHA-2 / SHA-256** | Cryptographic hashing standard commonly used to verify digital evidence integrity. |
-| [Click](https://github.com/gurnec/HashCheck) | **HashCheck** | Windows shell extension for calculating and verifying file hashes. |
-
-### Evidence Integrity Concept
-
-
-
-> Hash values help demonstrate that evidence has remained unchanged. Maintain complete acquisition logs, examiner notes, chain-of-custody records, and tool/version information as part of the forensic process.
 
 ---
 
@@ -260,3 +197,15 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 
 ---
 
+---
+
+# Malware Analysis / Reverse Engineering Tools
+
+| Download | Tool | Description |
+|---|---|---|
+| [Click](https://www.ghidra-sre.org/) | **Ghidra** | NSA-developed software reverse-engineering framework for analyzing compiled programs. |
+| [Click](https://hex-rays.com/ida-pro/) | **IDA Pro** | Commercial disassembler and debugger widely used for reverse engineering. |
+| [Click](https://x64dbg.com/) | **x64dbg** | Open-source debugger for Windows applications. |
+| [Click](https://github.com/radareorg/radare2) | **radare2** | Open-source reverse-engineering framework for binary analysis. |
+| [Click](https://cuckoosandbox.org/) | **Cuckoo Sandbox** | Automated malware-analysis and sandboxing framework. |
+| [Click](https://www.virustotal.com/) | **VirusTotal** | Online service for analyzing files, URLs, domains, and IP addresses using multiple security engines and intelligence sources. |
