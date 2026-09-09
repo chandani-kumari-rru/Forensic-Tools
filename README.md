@@ -65,7 +65,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 
 - [Forensic Imaging Tools](#forensic-imaging-tools)
 - [Forensic Carving Tools](#forensic-carving-tools)
-- [Windows Artifact Analysis Tools](#windows-artifact-analysis-tools)
+- [Artifact Analysis Tools](#artifact-analysis-tools)
 - [Memory Forensic Tools](#memory-forensic-tools)
 - [Network Forensic Tools](#network-forensic-tools)
 - [Disk & File-System Forensic Tools](#disk--file-system-forensic-tools)
@@ -107,25 +107,16 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 
 ---
 
-# Windows Artifact Analysis Tools
+# Artifact Analysis Tools
+ > Examine digital remnants like logs, registry hives, and browser history to reconstruct user activity and security incidents. 
 
-| Download | Tool | Primary Use |
+| Purpose | Tool | Type |
 |---|---|---|
-| [Click](https://www.magnetforensics.com/products/magnet-axiom/) | **Magnet AXIOM** | Commercial forensic platform for analyzing computer, mobile, cloud, and other digital artifacts. |
-| [Click](https://github.com/EricZimmerman/RegistryExplorer) | **Registry Explorer** | Advanced Windows Registry hive analysis, including transaction-log support and artifact interpretation. |
-| [Click](https://github.com/EricZimmerman/RECmd) | **RECmd** | Command-line Windows Registry analysis and artifact extraction. |
-| [Click](https://github.com/EricZimmerman/AmcacheParser) | **AmcacheParser** | Parses Windows Amcache.hve data for application execution and installation-related artifacts. |
-| [Click](https://github.com/EricZimmerman/AppCompatCacheParser) | **AppCompatCacheParser** | Parses ShimCache / AppCompatCache data from Windows Registry hives. |
-| [Click](https://github.com/EricZimmerman/BAMParser) | **BAMParser** | Parses Background Activity Moderator artifacts containing information about executable activity. |
-| [Click](https://github.com/EricZimmerman/UserAssist) | **UserAssist** | Parses UserAssist Registry artifacts containing information about GUI-based application execution. |
-| [Click](https://github.com/EricZimmerman/TimelineExplorer) | **Timeline Explorer** | GUI tool for examining CSV/TSV forensic timelines and artifact output. |
-| [Click](https://github.com/EricZimmerman/PECmd) | **PECmd** | Parses Windows Prefetch files to extract execution-related metadata. |
+| Disk Artifact Tool | [Autopsy](https://www.autopsy.com/) | GUI,Freemium |
+| Memory Artifact Tool | [Volatility](https://volatilityfoundation.org/) | GUI,Freemium |
+| Network Artifact Tool | [Click](https://www.wireshark.org/) | **Wireshark** | GUI,Freemium |
+| Windows Registry Tool | [Eric Zimmerman's Tools](https://github.com/EricZimmerman/RECmd) | Command-line, Freemium|
 
-### Common Windows Execution / Timestamp Artifacts
-
-
-
-> **Important:** These artifacts do not all represent the same type of "execution proof." Their meaning, timestamp semantics, retention, and evidentiary value differ by Windows version and artifact state. Interpret them in context and correlate multiple artifacts.
 
 ---
 
