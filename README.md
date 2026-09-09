@@ -63,9 +63,9 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 ---
 ## 📑 Table of Contents
 
+- [Artifact Analysis Tools](#artifact-analysis-tools)
 - [Forensic Imaging Tools](#forensic-imaging-tools)
 - [Forensic Carving Tools](#forensic-carving-tools)
-- [Artifact Analysis Tools](#artifact-analysis-tools)
 - [Memory Forensic Tools](#memory-forensic-tools)
 - [Network Forensic Tools](#network-forensic-tools)
 - [Disk & File-System Forensic Tools](#disk--file-system-forensic-tools)
@@ -78,6 +78,20 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 - [Incident Response / Triage Tools](#incident-response--triage-tools)
 - [Quick DFIR Tool Selection Guide](#-quick-dfir-tool-selection-guide)
 - [Suggested Digital Forensics Workflow](#-suggested-digital-forensics-workflow)
+
+
+---
+
+# Artifact Analysis Tools
+ > Examine digital remnants like logs, registry hives, and browser history to reconstruct user activity and security incidents. 
+
+| Purpose | Tool | Type |
+|---|---|---|
+| Disk Artifact Tool | [Autopsy](https://www.autopsy.com/) | GUI,Freemium |
+| Memory Artifact Tool | [Volatility](https://volatilityfoundation.org/) | GUI,Freemium |
+| Network Artifact Tool | [Wireshark](https://www.wireshark.org/) | GUI,Freemium |
+| Windows Registry Tool | [Eric Zimmerman's Tools](https://github.com/EricZimmerman/RECmd) | Command-line, Freemium|
+
 
 ---
 
@@ -104,19 +118,6 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | [Click](https://www.cgsecurity.org/wiki/PhotoRec) | **PhotoRec** | File-carving utility that recovers files by identifying known file signatures rather than relying on the file system. |
 | [Click](https://github.com/sleuthkit/scalpel) | **Scalpel** | High-performance file-carving tool based on file headers, footers, and configurable carving rules. |
 | [Click](https://foremost.sourceforge.net/) | **Foremost** | File-carving utility that recovers files using configurable header and footer signatures. |
-
----
-
-# Artifact Analysis Tools
- > Examine digital remnants like logs, registry hives, and browser history to reconstruct user activity and security incidents. 
-
-| Purpose | Tool | Type |
-|---|---|---|
-| Disk Artifact Tool | [Autopsy](https://www.autopsy.com/) | GUI,Freemium |
-| Memory Artifact Tool | [Volatility](https://volatilityfoundation.org/) | GUI,Freemium |
-| Network Artifact Tool | [Wireshark](https://www.wireshark.org/) | GUI,Freemium |
-| Windows Registry Tool | [Eric Zimmerman's Tools](https://github.com/EricZimmerman/RECmd) | Command-line, Freemium|
-
 
 ---
 
