@@ -123,27 +123,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 
 ### Common Windows Execution / Timestamp Artifacts
 
-```text
-AmCache
-   │
-   ├── Application installation / execution-related information
-   │
-ShimCache / AppCompatCache
-   │
-   ├── Application compatibility cache information
-   │
-BAM / DAM
-   │
-   ├── Background Activity information
-   │
-UserAssist
-   │
-   ├── GUI application execution information
-   │
-Prefetch
-   │
-   └── Application execution and performance-related information
-```
+
 
 > **Important:** These artifacts do not all represent the same type of "execution proof." Their meaning, timestamp semantics, retention, and evidentiary value differ by Windows version and artifact state. Interpret them in context and correlate multiple artifacts.
 
@@ -160,25 +140,6 @@ Prefetch
 
 ### Common Memory Forensics Workflow
 
-```text
-RAM Acquisition
-      ↓
-Memory Image Verification
-      ↓
-Operating-System Identification
-      ↓
-Process Analysis
-      ↓
-DLL / Module Analysis
-      ↓
-Network Connection Analysis
-      ↓
-Command-Line / Handle Analysis
-      ↓
-Malware / Injection Investigation
-      ↓
-Evidence Correlation & Reporting
-```
 
 ---
 
@@ -234,18 +195,6 @@ Evidence Correlation & Reporting
 
 ### Common Browser Artifacts
 
-```text
-Browser History
-Downloads
-Cookies
-Cache
-Bookmarks
-Saved Logins
-Web Storage
-Session Data
-Search Queries
-Autocomplete Data
-```
 
 ---
 
@@ -260,18 +209,6 @@ Autocomplete Data
 
 ### Important Email Evidence
 
-```text
-From / To / CC / BCC
-Message-ID
-Date / Time
-Received Headers
-Return-Path
-X-Originating-IP (when present)
-Attachments
-URLs
-Authentication Results
-SPF / DKIM / DMARC
-```
 
 ---
 
@@ -285,25 +222,7 @@ SPF / DKIM / DMARC
 
 ### Timeline Correlation
 
-```text
-File Created
-     ↓
-File Modified
-     ↓
-File Accessed
-     ↓
-Application Execution
-     ↓
-UserAssist / Prefetch / BAM / AmCache
-     ↓
-Browser Activity
-     ↓
-Network Activity
-     ↓
-External Device Activity
-     ↓
-Final Event Timeline
-```
+
 
 ---
 
@@ -331,23 +250,7 @@ Final Event Timeline
 
 ### Evidence Integrity Concept
 
-```text
-Original Evidence
-       ↓
-Forensic Acquisition
-       ↓
-Hash Calculation
-       ↓
-Forensic Image
-       ↓
-Hash Verification
-       ↓
-Analysis Copy
-       ↓
-Final Verification
-       ↓
-Forensic Report
-```
+
 
 > Hash values help demonstrate that evidence has remained unchanged. Maintain complete acquisition logs, examiner notes, chain-of-custody records, and tool/version information as part of the forensic process.
 
