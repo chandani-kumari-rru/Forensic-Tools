@@ -114,7 +114,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 |---|---|---|
 | Disk Artifact Tool | [Autopsy](https://www.autopsy.com/) | GUI,Freemium |
 | Memory Artifact Tool | [Volatility](https://volatilityfoundation.org/) | GUI,Freemium |
-| Network Artifact Tool | [Click](https://www.wireshark.org/) | **Wireshark** | GUI,Freemium |
+| Network Artifact Tool | [Wireshark](https://www.wireshark.org/) | GUI,Freemium |
 | Windows Registry Tool | [Eric Zimmerman's Tools](https://github.com/EricZimmerman/RECmd) | Command-line, Freemium|
 
 
