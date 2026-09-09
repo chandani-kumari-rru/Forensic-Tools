@@ -33,7 +33,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
                   Forensic Acquisition
                            │
                            ▼
-                    Hash Verification
+                    Hash Verification (Cyptography)
                            │
                            ▼
               +------------+------------+
