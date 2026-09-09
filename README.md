@@ -69,7 +69,6 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 - [Memory Forensic Tools](#memory-forensic-tools)
 - [Network Forensic Tools](#network-forensic-tools)
 - [Mobile Forensic Tools](#mobile-forensic-tools)
-- [Email Forensic Tools](#email-forensic-tools)
 - [Incident Response / Triage Tools](#incident-response--triage-tools)
 - [Malware Analysis / Reverse Engineering Tools](#malware-analysis--reverse-engineering-tools)
 
@@ -131,11 +130,8 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 |---|---|---|
 | [Click](https://www.wireshark.org/) | **Wireshark** | GUI network protocol analyzer for capturing and analyzing PCAP/PCAPNG traffic. |
 | [Click](https://www.tcpdump.org/) | **tcpdump** | Command-line packet capture and network traffic analysis utility. |
-| [Click](https://zeek.org/) | **Zeek** | Network security monitor that generates structured logs and metadata from network traffic. |
 | [Click](https://suricata.io/) | **Suricata** | Open-source network threat detection engine supporting IDS, IPS, and network security monitoring. |
 | [Click](https://www.netresec.com/?page=NetworkMiner) | **NetworkMiner** | Network forensic analysis tool for extracting hosts, files, credentials, sessions, and other artifacts from captured traffic. |
-| [Click](https://github.com/fox-it/Dissect) | **Dissect** | Digital forensics framework that includes tools and libraries useful for incident-response and network-related investigations. |
-| [Click](https://www.tcpdump.org/manpages/tcpdump.1.html) | **TShark** | Command-line network protocol analyzer distributed with Wireshark. |
 
 ---
 
@@ -143,25 +139,15 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 
 | Download | Tool | Description |
 |---|---|---|
+| [Click](https://www.oxygenforensics.com/) | **Oxygen Forensic Detective** | Commercial digital forensic platform for mobile-device, cloud, computer, and application-data analysis. |
 | [Click](https://cellebrite.com/en/ufed/) | **Cellebrite UFED** | Commercial mobile-device acquisition and extraction platform. |
 | [Click](https://www.magnetforensics.com/products/magnet-axiom/) | **Magnet AXIOM** | Commercial platform for examining mobile, computer, cloud, and other digital evidence. |
-| [Click](https://www.oxygenforensics.com/) | **Oxygen Forensic Detective** | Commercial digital forensic platform for mobile-device, cloud, computer, and application-data analysis. |
 | [Click](https://github.com/abrignoni/iLEAPP) | **iLEAPP** | Open-source tool for parsing iOS forensic artifacts. |
 | [Click](https://github.com/abrignoni/aLEAPP) | **ALEAPP** | Open-source tool for parsing Android forensic artifacts. |
 | [Click](https://github.com/abrignoni/LEAPP) | **LEAPP** | Artifact parsing framework used to extract forensic artifacts from supported platforms. |
 
 ---
 
-# Email Forensic Tools
-
-| Download | Tool | Description |
-|---|---|---|
-| [Click](https://www.sleuthkit.org/autopsy/) | **Autopsy** | Can assist with analysis of email artifacts and associated files. |
-| [Click](https://github.com/SpamScope/mail-parser) | **mail-parser** | Python-based email parsing library useful for extracting headers and message information. |
-| [Click](https://github.com/DidierStevens/DidierStevensSuite) | **oledump / Didier Stevens Suite** | Collection of forensic and malware-analysis tools, including utilities useful for examining suspicious email attachments and Office documents. |
-| [Click](https://www.maltiverse.com/) | **Maltiverse** | Threat-intelligence platform that can help investigate indicators extracted from suspicious messages or attachments. |
-
----
 
 # Incident Response / Triage Tools
 
