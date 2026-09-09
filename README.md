@@ -18,7 +18,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 
 ---
 
-# 🧪 Suggested Digital Forensics Workflow
+# 🧪 Roadmap Digital Forensics Workflow
 
 ```text
                     DIGITAL FORENSICS
@@ -68,7 +68,6 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 - [Forensic Carving Tools](#forensic-carving-tools)
 - [Memory Forensic Tools](#memory-forensic-tools)
 - [Network Forensic Tools](#network-forensic-tools)
-- [Disk & File-System Forensic Tools](#disk--file-system-forensic-tools)
 - [Mobile Forensic Tools](#mobile-forensic-tools)
 - [Email Forensic Tools](#email-forensic-tools)
 - [Incident Response / Triage Tools](#incident-response--triage-tools)
@@ -124,9 +123,6 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | [Click](https://github.com/Velocidex/velociraptor) | **Velociraptor** | Endpoint visibility, digital forensic collection, and incident-response platform capable of collecting volatile and persistent artifacts. |
 | [Click](https://github.com/ufrisk/MemProcFS) | **MemProcFS** | Memory-analysis framework that presents a memory dump as a virtual file system for forensic investigation. |
 
-### Common Memory Forensics Workflow
-
-
 ---
 
 # Network Forensic Tools
@@ -143,19 +139,6 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 
 ---
 
-# Disk & File-System Forensic Tools
-
-| Download | Tool | Description |
-|---|---|---|
-| [Click](https://www.sleuthkit.org/) | **The Sleuth Kit (TSK)** | Collection of command-line tools for file-system and disk-image forensic analysis. |
-| [Click](https://www.autopsy.com/) | **Autopsy** | GUI digital forensics platform built around The Sleuth Kit and additional forensic modules. |
-| [Click](https://github.com/EricZimmerman/NTFS) | **MFTECmd** | Parses NTFS Master File Table (MFT) records and related NTFS metadata. |
-| [Click](https://github.com/EricZimmerman/LECmd) | **LECmd** | Parses Windows LNK shortcut files and extracts forensic metadata. |
-| [Click](https://github.com/EricZimmerman/JLECmd) | **JLECmd** | Parses Windows Jump List files for application and file-access artifacts. |
-| [Click](https://github.com/EricZimmerman/SDBExplorer) | **SDBExplorer** | Examines Windows Shim Database (SDB) files. |
-
----
-
 # Mobile Forensic Tools
 
 | Download | Tool | Description |
@@ -166,9 +149,6 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | [Click](https://github.com/abrignoni/iLEAPP) | **iLEAPP** | Open-source tool for parsing iOS forensic artifacts. |
 | [Click](https://github.com/abrignoni/aLEAPP) | **ALEAPP** | Open-source tool for parsing Android forensic artifacts. |
 | [Click](https://github.com/abrignoni/LEAPP) | **LEAPP** | Artifact parsing framework used to extract forensic artifacts from supported platforms. |
-
-> Commercial tools may require a license, dongle, account, or institutional authorization.
-
 
 ---
 
@@ -181,8 +161,6 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | [Click](https://github.com/DidierStevens/DidierStevensSuite) | **oledump / Didier Stevens Suite** | Collection of forensic and malware-analysis tools, including utilities useful for examining suspicious email attachments and Office documents. |
 | [Click](https://www.maltiverse.com/) | **Maltiverse** | Threat-intelligence platform that can help investigate indicators extracted from suspicious messages or attachments. |
 
-### Important Email Evidence
-
 ---
 
 # Incident Response / Triage Tools
@@ -194,8 +172,6 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | [Click](https://github.com/ForensicArtifacts/artifacts) | **Forensic Artifacts** | Repository describing common forensic artifacts and their locations across operating systems. |
 | [Click](https://github.com/fox-it/Dissect) | **Dissect** | Python-based DFIR framework for examining forensic evidence at scale. |
 | [Click](https://github.com/DidierStevens/DidierStevensSuite) | **Didier Stevens Suite** | Collection of Windows forensic, malware-analysis, and incident-response utilities. |
-
----
 
 ---
 
