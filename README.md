@@ -63,30 +63,16 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 ---
 ## 📑 Table of Contents
 
-- [Artifact Analysis Tools](#artifact-analysis-tools)
-- [Forensic Imaging & Carving Tools](#forensic-imaging-&-carving-tools)
+- [Forensic Imaging & Carving Tools](#forensic-imaging-and-carving-tools)
 - [Memory Forensic Tools](#memory-forensic-tools)
 - [Network Forensic Tools](#network-forensic-tools)
 - [Mobile Forensic Tools](#mobile-forensic-tools)
 - [Incident Response / Triage Tools](#incident-response--triage-tools)
 
----
-
-# Artifact Analysis Tools
- > Examine digital remnants like logs, registry hives, and browser history to reconstruct user activity and security incidents. 
-
-| Purpose | Tool | Type |
-|---|---|---|
-| Multipurpose Tool | [FTK](https://www.exterro.com/ftk-product-downloads/ftk-imager-version-4-7-1), [Autopsy](https://www.autopsy.com/), [Wireshark](https://www.wireshark.org/), [Oxygen](https://www.oxygenforensics.com/) | GUI, Freemium |
-| Browser & Internet Artifact Tools | [Autopsy](https://www.autopsy.com/), [Plaso](https://github.com/log2timeline/plaso) | GUI, Freemium |
-| Memory Artifact Tool | [Volatility Workbench](https://www.osforensics.com/tools/volatility-workbench.html), [Redline](https://fireeye.market/apps/211364)| GUI, Freemium |
-| Network Artifact Tool | [Wireshark](https://www.wireshark.org/) | GUI, Freemium |
-| Windows Registry Tool | [Eric Zimmerman's Tools](https://github.com/EricZimmerman/RECmd) | Command-line, Freemium|
 
 ---
 
-# Forensic Imaging & Carving Tools
-
+# Forensic Imaging and Carving Tools
 | Forensic Tool | Description |
 |---|---|
 | [FTK Imager](https://www.exterro.com/ftk-product-downloads/ftk-imager-version-4-7-1) | GUI-based forensic acquisition and preview tool for creating and verifying forensic images. |
