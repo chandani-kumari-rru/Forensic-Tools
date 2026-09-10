@@ -5,7 +5,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 > **Note:** Always verify tool versions, licenses, and acquisition procedures before using any forensic tool in a real investigation. Preserve original evidence and work on forensic copies whenever possible.
 
 ---
-# 🔎 Quick DFIR Tool Selection Guide
+# 🔎 Quick Review Forensic Tools
 
 | Investigation | Recommended Tools |
 |---|---|
@@ -17,50 +17,6 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | Extract Metadata | ExifTool|
 
 ---
-
-# 🧪 Roadmap Digital Forensics Workflow
-
-```text
-                    DIGITAL FORENSICS
-                           │
-                           ▼
-                  Evidence Identification
-                           │
-                           ▼
-                       Preservation
-                           │
-                           ▼
-                  Forensic Acquisition
-                           │
-                           ▼
-                    Hash Verification (Cyptography)
-                           │
-                           ▼
-              +------------+------------+
-              │            │            │
-              ▼            ▼            ▼
-          Disk/FS       Memory       Network
-          Analysis      Analysis      Analysis
-              │            │            │
-              +------------+------------+
-                           │
-                           ▼
-                   Artifact Extraction
-                           │
-                           ▼
-                   Timeline Analysis
-                           │
-                           ▼
-                   Evidence Correlation
-                           │
-                           ▼
-                  Findings & Reporting
-                           │
-                           ▼
-                       Presentation
-```
-
----
 ## 📑 Table of Contents
 
 - [Forensic Imaging & Carving Tools](#forensic-imaging-and-carving-tools)
@@ -68,7 +24,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 - [Network Forensic Tools](#network-forensic-tools)
 - [Mobile Forensic Tools](#mobile-forensic-tools)
 - [Incident Response](#incident-response)
-
+- [Forensic Workflow](#forensics-workflow)
 
 ---
 
@@ -125,3 +81,50 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | [KAPE](https://www.kroll.com/en/insights/publications/cyber/kape) | Rapid collection and processing of Windows forensic artifacts. |
 | [Velociraptor](https://www.velociraptor.com/) | Endpoint monitoring, forensic collection, and incident-response platform. |
 | [Dissect](https://github.com/fox-it/Dissect) | Python-based DFIR framework for examining forensic evidence at scale. |
+
+
+---
+
+# Forensics Workflow
+
+```text
+                    DIGITAL FORENSICS
+                           │
+                           ▼
+                  Evidence Identification
+                           │
+                           ▼
+                       Preservation
+                           │
+                           ▼
+                  Forensic Acquisition
+                           │
+                           ▼
+                    Hash Verification (Cyptography)
+                           │
+                           ▼
+              +------------+------------+
+              │            │            │
+              ▼            ▼            ▼
+          Disk/FS       Memory       Network
+          Analysis      Analysis      Analysis
+              │            │            │
+              +------------+------------+
+                           │
+                           ▼
+                   Artifact Extraction
+                           │
+                           ▼
+                   Timeline Analysis
+                           │
+                           ▼
+                   Evidence Correlation
+                           │
+                           ▼
+                  Findings & Reporting
+                           │
+                           ▼
+                       Presentation
+```
+
+
