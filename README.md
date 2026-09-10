@@ -86,7 +86,8 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 
 | Forensic Tool | Description |
 |---|---|
-| [Volatility](https://volatilityfoundation.org/) | Open-source memory forensics framework for analyzing RAM captures and extracting processes, network information, handles, DLLs, and other artifacts. || [Redline](https://fireeye.market/apps/211364) | It enables security analysts to collect and analyze data such as running processes, memory images, registry entries, network connections, and file metadata. |
+| [Volatility](https://volatilityfoundation.org/) | Open-source memory forensics framework for analyzing RAM captures and extracting processes, network information, handles, DLLs, and other artifacts. | 
+| [Redline](https://fireeye.market/apps/211364) | It enables security analysts to collect and analyze data such as running processes, memory images, registry entries, network connections, and file metadata. | 
 | [LiME](https://github.com/504ensicsLabs/LiME) | Linux Memory Extractor used to acquire volatile memory from Linux and Android systems. |
 | [Velociraptor](https://github.com/Velocidex/velociraptor) | Endpoint visibility, digital forensic collection, and incident-response platform capable of collecting volatile and persistent artifacts. |
 
@@ -121,5 +122,4 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 |---|---|
 | [KAPE](https://www.kroll.com/en/insights/publications/cyber/kape) | Rapid collection and processing of Windows forensic artifacts. |
 | [Velociraptor](https://www.velociraptor.com/) | Endpoint monitoring, forensic collection, and incident-response platform. |
-| [Click](https://github.com/ForensicArtifacts/artifacts)  | Repository describing common forensic artifacts and their locations across operating systems. |
 | [Dissect](https://github.com/fox-it/Dissect) | Python-based DFIR framework for examining forensic evidence at scale. |
