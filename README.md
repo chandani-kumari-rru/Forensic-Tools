@@ -80,7 +80,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 |---|---|---|
 | Disk Artifact Tool | [Autopsy](https://www.autopsy.com/) | GUI,Freemium |
 | Browser & Internet Artifact Tools | [Autopsy](https://www.autopsy.com/), [Plaso](https://github.com/log2timeline/plaso) | GUI,Freemium |
-| Memory Artifact Tool | [Volatility](https://volatilityfoundation.org/), [Redline](https://fireeye.market/apps/211364)| GUI,Freemium |
+| Memory Artifact Tool | [Volatility Workbench](https://www.osforensics.com/tools/volatility-workbench.html), [Redline](https://fireeye.market/apps/211364)| GUI,Freemium |
 | Network Artifact Tool | [Wireshark](https://www.wireshark.org/) | GUI,Freemium |
 | Windows Registry Tool | [Eric Zimmerman's Tools](https://github.com/EricZimmerman/RECmd) | Command-line, Freemium|
 
