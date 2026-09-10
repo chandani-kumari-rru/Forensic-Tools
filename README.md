@@ -42,7 +42,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 
 # Memory Forensic Tools
 
-| Forensic Tool | Description |
+| ForensicTool | Description |
 |---|---|
 | [Volatility](https://volatilityfoundation.org/) | Open-source memory forensics framework for analyzing RAM captures and extracting processes, network information, handles, DLLs, and other artifacts. | 
 | [Redline](https://fireeye.market/apps/211364) | It enables security analysts to collect and analyze data such as running processes, memory images, registry entries, network connections, and file metadata. | 
