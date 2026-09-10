@@ -73,7 +73,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 ---
 
 # Forensic Imaging and Carving Tools
-  > [Autoposy](https://www.autopsy.com/download/) is not a Forensic Imaging Tool But it is a Forensic Image Analysis Tool & Also File Carving Tool. 
+  > [Autopsy](https://www.autopsy.com/download/) is not a Forensic Imaging Tool But it is a Forensic Image Analysis Tool & Also File Carving Tool. 
 
 | Forensic Tool | Description |
 |---|---|
