@@ -64,8 +64,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 ## 📑 Table of Contents
 
 - [Artifact Analysis Tools](#artifact-analysis-tools)
-- [Forensic Imaging Tools](#forensic-imaging-tools)
-- [Forensic Carving Tools](#forensic-carving-tools)
+- [Forensic Imaging & Carving Tools](#forensic-imaging-&-carving-tools)
 - [Memory Forensic Tools](#memory-forensic-tools)
 - [Network Forensic Tools](#network-forensic-tools)
 - [Mobile Forensic Tools](#mobile-forensic-tools)
@@ -78,7 +77,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 
 | Purpose | Tool | Type |
 |---|---|---|
-| Disk Artifact Tool | [Autopsy](https://www.autopsy.com/) | GUI, Freemium |
+| Multipurpose Tool | [FTK](https://www.exterro.com/ftk-product-downloads/ftk-imager-version-4-7-1), [Autopsy](https://www.autopsy.com/), [Wireshark](https://www.wireshark.org/), [Oxygen](https://www.oxygenforensics.com/) | GUI, Freemium |
 | Browser & Internet Artifact Tools | [Autopsy](https://www.autopsy.com/), [Plaso](https://github.com/log2timeline/plaso) | GUI, Freemium |
 | Memory Artifact Tool | [Volatility Workbench](https://www.osforensics.com/tools/volatility-workbench.html), [Redline](https://fireeye.market/apps/211364)| GUI, Freemium |
 | Network Artifact Tool | [Wireshark](https://www.wireshark.org/) | GUI, Freemium |
@@ -86,26 +85,14 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 
 ---
 
-# Forensic Imaging Tools
+# Forensic Imaging & Carving Tools
 
-| Download | Forensic Tool | Description |
-|---|---|---|
-| [Click](https://www.exterro.com/ftk-product-downloads/ftk-imager-version-4-7-1) | **FTK Imager** | GUI-based forensic acquisition and preview tool for creating and verifying forensic images. |
-| [Click](https://www.gnu.org/software/coreutils/manual/html_node/dd-invocation.html) | **dd/dc3dd** | Standard Unix utility used for bit-by-bit copying and creating raw disk images. |
-| [Click](https://guymager.sourceforge.io/) | **Guymager** | Open-source GUI forensic imager supporting raw and EWF image formats with detailed acquisition logs. |
-| [Click](https://www.kroll.com/en/insights/publications/cyber/kape) | **KAPE** | Rapid triage and forensic artifact collection tool for Windows systems. |
-
----
-
-# Forensic Carving Tools
-
-| Download | Forensic Tool | Description |
-|---|---|---|
-| [Click](https://www.autopsy.com/) | **Autopsy** | Open-source digital forensics platform with file-system analysis, keyword search, timeline analysis, and carving capabilities. |
-| [Click](https://github.com/simsong/bulk_extractor) | **bulk_extractor** | Extracts useful forensic information such as email addresses, URLs, credit-card-like numbers, and other features directly from disk images. |
-| [Click](https://www.cgsecurity.org/wiki/PhotoRec) | **PhotoRec** | File-carving utility that recovers files by identifying known file signatures rather than relying on the file system. |
-| [Click](https://github.com/sleuthkit/scalpel) | **Scalpel** | High-performance file-carving tool based on file headers, footers, and configurable carving rules. |
-| [Click](https://foremost.sourceforge.net/) | **Foremost** | File-carving utility that recovers files using configurable header and footer signatures. |
+| Forensic Tool | Description |
+|---|---|
+| [FTK Imager](https://www.exterro.com/ftk-product-downloads/ftk-imager-version-4-7-1) | GUI-based forensic acquisition and preview tool for creating and verifying forensic images. |
+| [dd/dc3dd](https://www.gnu.org/software/coreutils/manual/html_node/dd-invocation.html) | Standard Unix utility used for bit-by-bit copying and creating raw disk images. |
+| [Guymager](https://guymager.sourceforge.io/) | Open-source GUI forensic imager supporting raw and EWF image formats with detailed acquisition logs. |
+| [KAPE](https://www.kroll.com/en/insights/publications/cyber/kape) | Rapid triage and forensic artifact collection tool for Windows systems. |
 
 ---
 
@@ -122,36 +109,32 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 
 # Network Forensic Tools
 
-| Download | Tool | Description |
-|---|---|---|
-| [Click](https://www.wireshark.org/) | **Wireshark** | GUI network protocol analyzer for capturing and analyzing PCAP/PCAPNG traffic. |
-| [Click](https://www.tcpdump.org/) | **tcpdump** | Command-line packet capture and network traffic analysis utility. |
-| [Click](https://suricata.io/) | **Suricata** | Open-source network threat detection engine supporting IDS, IPS, and network security monitoring. |
-| [Click](https://www.netresec.com/?page=NetworkMiner) | **NetworkMiner** | Network forensic analysis tool for extracting hosts, files, credentials, sessions, and other artifacts from captured traffic. |
+| Tool | Description |
+|---|---|
+| [Wireshark](https://www.wireshark.org/) | GUI network protocol analyzer for capturing and analyzing PCAP/PCAPNG traffic. |
+| [tcpdump](https://www.tcpdump.org/) | Command-line packet capture and network traffic analysis utility. |
+| [Suricata](https://suricata.io/) | Open-source network threat detection engine supporting IDS, IPS, and network security monitoring. |
+| [NetworkMiner](https://www.netresec.com/?page=NetworkMiner)| **NetworkMiner** | Network forensic analysis tool for extracting hosts, files, credentials, sessions, and other artifacts from captured traffic. |
 
 ---
 
 # Mobile Forensic Tools
-
-| Download | Tool | Description |
-|---|---|---|
-| [Click](https://www.oxygenforensics.com/) | **Oxygen Forensic Detective** | Commercial digital forensic platform for mobile-device, cloud, computer, and application-data analysis. |
-| [Click](https://cellebrite.com/en/ufed/) | **Cellebrite UFED** | Commercial mobile-device acquisition and extraction platform. |
-| [Click](https://www.magnetforensics.com/products/magnet-axiom/) | **Magnet AXIOM** | Commercial platform for examining mobile, computer, cloud, and other digital evidence. |
-| [Click](https://github.com/abrignoni/iLEAPP) | **iLEAPP** | Open-source tool for parsing iOS forensic artifacts. |
-| [Click](https://github.com/abrignoni/aLEAPP) | **ALEAPP** | Open-source tool for parsing Android forensic artifacts. |
-| [Click](https://github.com/abrignoni/LEAPP) | **LEAPP** | Artifact parsing framework used to extract forensic artifacts from supported platforms. |
+| Tool | Description |
+|---|---|
+| [Oxygen Forensic](https://www.oxygenforensics.com/) | Commercial digital forensic platform for mobile-device, cloud, computer, and application-data analysis. |
+| [Cellebrite UFED](https://cellebrite.com/en/ufed/) | Commercial mobile-device acquisition and extraction platform. |
+| [Magnet AXIOM](https://www.magnetforensics.com/products/magnet-axiom/) | **Magnet AXIOM** | Commercial platform for examining mobile, computer, cloud, and other digital evidence. |
+| [iLEAPP](https://github.com/abrignoni/iLEAPP) | Open-source tool for parsing iOS forensic artifacts. |
+| [ALEAPP](https://github.com/abrignoni/aLEAPP) | Open-source tool for parsing Android forensic artifacts. |
 
 ---
 
 
 # Incident Response 
 
-| Download | Tool | Description |
-|---|---|---|
-| [Click](https://www.kroll.com/en/insights/publications/cyber/kape) | **KAPE** | Rapid collection and processing of Windows forensic artifacts. |
-| [Click](https://www.velociraptor.com/) | **Velociraptor** | Endpoint monitoring, forensic collection, and incident-response platform. |
-| [Click](https://github.com/ForensicArtifacts/artifacts) | **Forensic Artifacts** | Repository describing common forensic artifacts and their locations across operating systems. |
-| [Click](https://github.com/fox-it/Dissect) | **Dissect** | Python-based DFIR framework for examining forensic evidence at scale. |
-| [Click](https://github.com/DidierStevens/DidierStevensSuite) | **Didier Stevens Suite** | Collection of Windows forensic, malware-analysis, and incident-response utilities. |
-
+| Tool | Description |
+|---|---|
+| [KAPE](https://www.kroll.com/en/insights/publications/cyber/kape) | Rapid collection and processing of Windows forensic artifacts. |
+| [Velociraptor](https://www.velociraptor.com/) | Endpoint monitoring, forensic collection, and incident-response platform. |
+| [Click](https://github.com/ForensicArtifacts/artifacts)  | Repository describing common forensic artifacts and their locations across operating systems. |
+| [Dissect](https://github.com/fox-it/Dissect) | Python-based DFIR framework for examining forensic evidence at scale. |
