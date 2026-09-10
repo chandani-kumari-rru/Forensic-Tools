@@ -67,13 +67,14 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 - [Memory Forensic Tools](#memory-forensic-tools)
 - [Network Forensic Tools](#network-forensic-tools)
 - [Mobile Forensic Tools](#mobile-forensic-tools)
-- [Incident Response / Triage Tools](#incident-response--triage-tools)
+- [Incident Response](#incident-response)
 
 
 ---
 
 # Forensic Imaging and Carving Tools
   > [Autoposy](https://www.autopsy.com/download/) is not a Forensic Imaging Tool But it is a Forensic Image Analysis Tool & Also File Carving Tool. 
+
 | Forensic Tool | Description |
 |---|---|
 | [FTK Imager](https://www.exterro.com/ftk-product-downloads/ftk-imager-version-4-7-1) | GUI-based forensic acquisition and preview tool for creating and verifying forensic images. |
