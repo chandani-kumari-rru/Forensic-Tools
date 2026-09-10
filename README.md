@@ -84,18 +84,17 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 
 # Memory Forensic Tools
 
-| Download | Tool | Description |
-|---|---|---|
-| [Click](https://volatilityfoundation.org/) | **Volatility** | Open-source memory forensics framework for analyzing RAM captures and extracting processes, network information, handles, DLLs, and other artifacts. |
-| [Click](https://github.com/504ensicsLabs/LiME) | **LiME** | Linux Memory Extractor used to acquire volatile memory from Linux and Android systems. |
-| [Click](https://github.com/Velocidex/velociraptor) | **Velociraptor** | Endpoint visibility, digital forensic collection, and incident-response platform capable of collecting volatile and persistent artifacts. |
-| [Click](https://github.com/ufrisk/MemProcFS) | **MemProcFS** | Memory-analysis framework that presents a memory dump as a virtual file system for forensic investigation. |
+| Forensic Tool | Description |
+|---|---|
+| [Volatility](https://volatilityfoundation.org/) | Open-source memory forensics framework for analyzing RAM captures and extracting processes, network information, handles, DLLs, and other artifacts. || [Redline](https://fireeye.market/apps/211364) | It enables security analysts to collect and analyze data such as running processes, memory images, registry entries, network connections, and file metadata. |
+| [LiME](https://github.com/504ensicsLabs/LiME) | Linux Memory Extractor used to acquire volatile memory from Linux and Android systems. |
+| [Velociraptor](https://github.com/Velocidex/velociraptor) | Endpoint visibility, digital forensic collection, and incident-response platform capable of collecting volatile and persistent artifacts. |
 
 ---
 
 # Network Forensic Tools
 
-| Tool | Description |
+| Forensic Tool | Description |
 |---|---|
 | [Wireshark](https://www.wireshark.org/) | GUI network protocol analyzer for capturing and analyzing PCAP/PCAPNG traffic. |
 | [tcpdump](https://www.tcpdump.org/) | Command-line packet capture and network traffic analysis utility. |
@@ -105,7 +104,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 ---
 
 # Mobile Forensic Tools
-| Tool | Description |
+| Forensic Tool | Description |
 |---|---|
 | [Oxygen Forensic](https://www.oxygenforensics.com/) | Commercial digital forensic platform for mobile-device, cloud, computer, and application-data analysis. |
 | [Cellebrite UFED](https://cellebrite.com/en/ufed/) | Commercial mobile-device acquisition and extraction platform. |
@@ -118,7 +117,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 
 # Incident Response 
 
-| Tool | Description |
+| DFIR Tool | Description |
 |---|---|
 | [KAPE](https://www.kroll.com/en/insights/publications/cyber/kape) | Rapid collection and processing of Windows forensic artifacts. |
 | [Velociraptor](https://www.velociraptor.com/) | Endpoint monitoring, forensic collection, and incident-response platform. |
