@@ -14,6 +14,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | Memory Analysis | Volatility, Redline |
 | Network / PCAP | Wireshark, TShark, tcpdump, NetworkMiner |
 | Mobile Forensics | Oxygen, MOBILedit, Cellebrite UFED, Magnet AXIOM |
+| Browser Artifact | KAPE |
 | Extract Metadata | ExifTool|
 
 ---
@@ -29,14 +30,14 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 ---
 
 # Forensic Imaging and Carving Tools
-  > [Autopsy](https://www.autopsy.com/download/) is not a Forensic Imaging Tool But it is a Forensic Image Analysis Tool & Also File Carving Tool. 
+  > [Autopsy](https://www.autopsy.com/download/) is not a Forensic Imaging Tool But it is a Forensic Image Analysis Tool & Also File Carving Tool.
+  > [KAPE](https://www.kroll.com/en/insights/publications/cyber/kape) is used for Browser Artifact Tool. 
 
 | Forensic Tool | Description |
 |---|---|
 | [FTK Imager](https://www.exterro.com/ftk-product-downloads/ftk-imager-version-4-7-1) | GUI-based forensic acquisition and preview tool for creating and verifying forensic images. |
 | [dd/dc3dd](https://www.gnu.org/software/coreutils/manual/html_node/dd-invocation.html) | Standard Unix utility used for bit-by-bit copying and creating raw disk images. |
 | [Guymager](https://guymager.sourceforge.io/) | Open-source GUI forensic imager supporting raw and EWF image formats with detailed acquisition logs. |
-| [KAPE](https://www.kroll.com/en/insights/publications/cyber/kape) | Rapid triage and forensic artifact collection tool for Windows systems. |
 
 ---
 
