@@ -7,7 +7,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 ---
 # 🔎 Quick Review Forensic Tools
 
-| Investigation Tool| Recommended Tools |
+| Purpose| Recommended Tools |
 |---|---|
 | Disk Imaging Tool| FTK Imager(windows), Lime(Linux), osxpmem(mac) |
 | Prevent Disk Writer Tool | FTK(Image mounting), Write Blocker|
