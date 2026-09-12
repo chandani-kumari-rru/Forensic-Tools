@@ -10,8 +10,8 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | Investigation Tool| Recommended Tools |
 |---|---|
 | Disk Imaging Tool| FTK Imager(windows), Lime(Linux), osxpmem(mac) |
-| Prevent Writer Tool | FTK(Image mounting), Write Blocker|
-| File Carving & Analysing Tool | FTK, Autopsy|
+| Prevent Disk Writer Tool | FTK(Image mounting), Write Blocker|
+| File Carving & Analyser Tool | FTK, Autopsy|
 | Browser Artifact | KAPE(windows) |
 | Image Metadata Extraction | ExifTool|
 | Live Memory Caputure | FTK, Magnet |
