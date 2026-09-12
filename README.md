@@ -12,7 +12,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | Disk Imaging Tool| FTK Imager(windows), Lime(Linux), osxpmem(mac) |
 | File Carving Tool | FTK, Autopsy|
 | Browser Artifact | KAPE(windows) |
-| Image Metadata Extraction Tool | ExifTool|
+| Image Metadata Extraction | ExifTool|
 | Memory Analysis | Volatility, Redline |
 | Network / PCAP | Wireshark, TShark, tcpdump, NetworkMiner |
 | Mobile Forensics | Oxygen, MOBILedit, Cellebrite UFED, Magnet AXIOM |
