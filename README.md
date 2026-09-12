@@ -7,15 +7,15 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 ---
 # 🔎 Quick Review Forensic Tools
 
-| Investigation | Recommended Tools |
+| Investigation Tool| Recommended Tools |
 |---|---|
 | Imaging Tool| FTK Imager(windows), Lime(Linux), osxpmem(mac) |
 | File Carving Tool | FTK, Autopsy|
+| Browser Artifact | KAPE(windows) |
+| Image Metadata Extraction Tool | ExifTool|
 | Memory Analysis | Volatility, Redline |
 | Network / PCAP | Wireshark, TShark, tcpdump, NetworkMiner |
 | Mobile Forensics | Oxygen, MOBILedit, Cellebrite UFED, Magnet AXIOM |
-| Browser Artifact | KAPE(windows) |
-| Extract Metadata | ExifTool|
 
 ---
 ## 📑 Table of Contents
