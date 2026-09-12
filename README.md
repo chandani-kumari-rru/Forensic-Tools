@@ -28,6 +28,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 - [Mobile Forensic Tools](#mobile-forensic-tools)
 - [Incident Response](#incident-response)
 - [Forensic Workflow](#forensics-workflow)
+- [References](#references)
 
 ---
 
@@ -129,5 +130,17 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
                            ▼
                        Presentation
 ```
-
+# References
+<img src="DataSets/DiskSources.png" alt="Description" width="900">
+<img src="DataSets/MetaIndexesSources.png" alt="Description" width="900">
+<img src="DataSets/MemorySources.png" alt="Description" width="900">
+<img src="DataSets/NetworkSources.png" alt="Description" width="900">
+<img src="DataSets/BrowserSources.png" alt="Description" width="900">
+<img src="DataSets/ExternalDeviceSources.png" alt="Description" width="900">
+<img src="DataSets/Email-Cloud-LogSources.png" alt="Description" width="900">
+<img src="DataSets/MalwareSources.png" alt="Description" width="900">
+<img src="DataSets/MobileSources.png" alt="Description" width="900">
+<img src="DataSets/MultimediaSources.png" alt="Description" width="900">
+<img src="DataSets/iotSources.png" alt="Description" width="900">
+<img src="DataSets/QuickChooserSources.png" alt="Description" width="900">
 
