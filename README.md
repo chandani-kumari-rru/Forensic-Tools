@@ -14,7 +14,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | Memory Analysis | Volatility, Redline |
 | Network / PCAP | Wireshark, TShark, tcpdump, NetworkMiner |
 | Mobile Forensics | Oxygen, MOBILedit, Cellebrite UFED, Magnet AXIOM |
-| Browser Artifact | KAPE |
+| Browser Artifact | KAPE(windows) |
 | Extract Metadata | ExifTool|
 
 ---
