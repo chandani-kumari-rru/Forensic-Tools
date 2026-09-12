@@ -7,7 +7,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 ---
 # 🔎 Quick Review Forensic Tools
 
-| Purpose| Freemium | Premium |
+| Purpose| Freemium Tool | Premium Tool |
 |---|---|---|
 | Disk Imaging Tool| FTK Imager(windows), Lime(Linux), osxpmem(mac) | Encase |
 | Prevent Disk Writer Tool | FTK(Image mounting), Write Blocker| |
