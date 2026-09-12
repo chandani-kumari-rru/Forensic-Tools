@@ -10,7 +10,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | Investigation | Recommended Tools |
 |---|---|
 | Imaging Tool| FTK Imager(windows), Lime(Linux), osxpmem(mac) |
-| File Carving Tool | Autopsy/PhotoRec/Scalpel (Cross-Platform Tools)|
+| File Carving Tool | FTK, Autopsy|
 | Memory Analysis | Volatility, Redline |
 | Network / PCAP | Wireshark, TShark, tcpdump, NetworkMiner |
 | Mobile Forensics | Oxygen, MOBILedit, Cellebrite UFED, Magnet AXIOM |
