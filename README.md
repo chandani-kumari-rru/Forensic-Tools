@@ -9,7 +9,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 
 | Investigation Tool| Recommended Tools |
 |---|---|
-| Imaging Tool| FTK Imager(windows), Lime(Linux), osxpmem(mac) |
+| Disk Imaging Tool| FTK Imager(windows), Lime(Linux), osxpmem(mac) |
 | File Carving Tool | FTK, Autopsy|
 | Browser Artifact | KAPE(windows) |
 | Image Metadata Extraction Tool | ExifTool|
