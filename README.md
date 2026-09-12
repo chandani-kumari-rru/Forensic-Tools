@@ -7,17 +7,17 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 ---
 # 🔎 Quick Review Forensic Tools
 
-| Purpose| Recommended Tools |
-|---|---|
-| Disk Imaging Tool| FTK Imager(windows), Lime(Linux), osxpmem(mac) |
-| Prevent Disk Writer Tool | FTK(Image mounting), Write Blocker|
-| File Carving & Analyser Tool | FTK, Autopsy|
-| Browser Artifact | KAPE(windows) |
-| Image Metadata Extraction | ExifTool|
-| Live Memory Caputure | FTK, Magnet |
-| Memory Analysis | Volatility, Redline |
-| Network Forensic | Wireshark|
-| Mobile Forensics | Oxygen, MOBILedit, Cellebrite UFED, Magnet AXIOM |
+| Purpose| Freemium | Premium |
+|---|---|---|
+| Disk Imaging Tool| FTK Imager(windows), Lime(Linux), osxpmem(mac) | Encase |
+| Prevent Disk Writer Tool | FTK(Image mounting), Write Blocker| |
+| File Carving & Analyser Tool | FTK, Autopsy| Encase |
+| Browser Artifact | KAPE(windows) | |
+| Image Metadata Extraction | ExifTool| |
+| Live Memory Caputure | FTK, Magnet | |
+| Memory Analysis | Volatility, Redline | |
+| Network Forensic | Wireshark| |
+| Mobile Forensics | Oxygen, MOBILedit | Cellebrite UFED, Magnet AXIOM |
 
 ---
 ## 📑 Table of Contents
