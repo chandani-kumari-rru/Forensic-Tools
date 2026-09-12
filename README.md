@@ -16,7 +16,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | Image Metadata Extraction | ExifTool|
 | Live Memory Caputure | FTK, Magnet |
 | Memory Analysis | Volatility, Redline |
-| Network / PCAP | Wireshark, TShark, tcpdump, NetworkMiner |
+| Network Forensic | Wireshark, TShark, tcpdump, NetworkMiner |
 | Mobile Forensics | Oxygen, MOBILedit, Cellebrite UFED, Magnet AXIOM |
 
 ---
