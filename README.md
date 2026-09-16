@@ -78,7 +78,8 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | [Magnet AXIOM](https://www.magnetforensics.com/products/magnet-axiom/) | Paid | `Uses`: specializes in recovering digital evidence from mobile devices, computers & cloud services |
 | [iLEAPP](https://github.com/abrignoni/iLEAPP) | Free | Open-source tool for parsing iOS forensic artifacts. |
 | [ALEAPP](https://github.com/abrignoni/aLEAPP) | Free | Open-source tool for parsing Android forensic artifacts. |
-| [Bulk Extractor](https://github.com/simsong/bulk_extractor/wiki/Installing-bulk_extractor) | Free | `Uses`: scan media & extracts data like email addressses, URLs & credit card numbers useful for rapid evidence discovery |
+| [Bulk Extractor](https://github.com/simsong/bulk_extractor/wiki/Installing-bulk_extractor) | Free | `Uses`: scan media & extracts data like email addresses, URLs & credit card numbers useful for rapid evidence discovery |
+| [Belkasoft Evidence Center](https://belkasoft.com/get) | Free | `Tool`: Digital Forensic Suite; `Uses`: supports data recovery from various devices including comuters, mobile devices & social media |
 
 ---
 
