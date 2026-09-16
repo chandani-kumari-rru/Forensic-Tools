@@ -195,7 +195,7 @@ Note:
 | `envars`            | Displays environment variables associated with processes.                              |
 | `pslist --pid 1234` | Displays information for a specific process using its PID.                             |
 
-## TSK Setup
+## [TSK Setup](https://youtu.be/EUQ-Gj9VmsE?si=zS3hO7nu9Z1mm0oH)
 
 
 
