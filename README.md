@@ -10,7 +10,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | Purpose| GUI Tool | Command-Line Tool |
 |---|---|---|
 | Disk Imaging Tool| FTK Imager, Encase | FTK, Encase |
-| Disk Writer Prevent Tool | FTK Imager(Image mounting), Write Blocker| |
+| Disable Disk Writer | FTK Imager(Image mounting), Write Blocker| |
 | File Carving & Analyser Tool | FTK Imager, Autopsy, PhotoRec| FTK, TSK |
 | Image Metadata Extraction | ExifTool | |
 | Browser Artifact | KAPE | KAPE |
