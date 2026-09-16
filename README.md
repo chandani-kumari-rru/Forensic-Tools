@@ -7,7 +7,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 ---
 # 🔎 Quick Review Forensic Tools
 
-| Purpose| GUI Tool | Command-Line Tool |
+| Tool Purpose| GUI Tool | Command-Line Tool |
 |---|---|---|
 | Disk Imaging Tool| FTK Imager, Encase | FTK, Encase |
 | Disable Disk Writer | FTK Imager(Image mounting), Write Blocker| |
