@@ -10,11 +10,11 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | Purpose| GUI Tool | Command-Line Tool |
 |---|---|---|
 | Disk Imaging Tool| FTK Imager, Encase | FTK, Encase |
-| Prevent Disk Writer Tool | FTK(Image mounting), Write Blocker| |
-| File Carving & Analyser Tool | FTK, Autopsy, PhotoRec| FTK, TSK |
+| Prevent Disk Writer Tool | FTK Imager(Image mounting), Write Blocker| |
+| File Carving & Analyser Tool | FTK Imager, Autopsy, PhotoRec| FTK, TSK |
 | Image Metadata Extraction | ExifTool | |
 | Browser Artifact | KAPE | KAPE |
-| Live Memory Capture | FTK | FTK, Magnet DumpIt |
+| Live Memory Capture | FTK Imager | FTK, Magnet DumpIt |
 | Memory Analysis | Volatility Workbench, Redline | Volatility |
 | Network Forensic | Wireshark| |
 | Mobile Forensics | Oxygen, MOBILedit, Cellebrite UFED, Magnet AXIOM | |
