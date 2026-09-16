@@ -29,7 +29,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 - [Incident Response](#incident-response)
 - [Forensic Workflow](#forensics-workflow)
 - [References](#references)
-
+- [Tool Setup Procedure](#tool-setup-procedure)
 ---
 
 # Forensic Imaging and Carving Tools
@@ -143,4 +143,42 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 <img src="DataSets/iotSources.png" alt="Description" width="900">
 <img src="DataSets/MetaIndexesSources.png" alt="Description" width="900">
 <img src="DataSets/QuickChooserSources.png" alt="Description" width="900">
+
+# Tool Setup Procedure
+## Volatility 3 Setup
+Step 1: Download zip file from browser
+```
+https://github.com/volatilityfoundation/volatility3
+```
+Step 2: Download python 3 from cmd
+```
+winget install Python.Python.3.14
+```
+Step 3: Capture Live Memory
+Step 4: Run this command
+```
+python vol.py -f <win-liveimg-fullpath> windows.info
+```
+## TSK Setup
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
