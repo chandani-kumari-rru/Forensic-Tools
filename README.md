@@ -167,7 +167,7 @@ Step 4: Run this command
 ```
 python vol.py -f <win-liveimg-fullpath> windows.info
 ```
-> Eg: python vol.py -f C:\Users\suraj\Desktop\DumpIt\x64\ASUS-20260916-044657.dmp windows.info
+> Eg: python vol.py -f C:\Users\Hp\Desktop\DumpIt\x64\ASUS-20260916-044657.dmp windows.info
 ## TSK Setup
 
 
