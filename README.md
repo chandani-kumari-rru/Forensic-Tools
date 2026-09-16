@@ -28,7 +28,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 - [Mobile Forensic Tools](#mobile-forensic-tools)
 - [Incident Response](#incident-response)
 - [Forensic Workflow](#forensics-workflow)
-- [References](#references)
+- [Sample Images References](#references)
 - [Tool Setup Procedure](#tool-setup-procedure)
 ---
 
