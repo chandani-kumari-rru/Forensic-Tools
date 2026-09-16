@@ -33,15 +33,17 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 ---
 
 # Forensic Imaging and Carving Tools
-  > [Autopsy](https://www.autopsy.com/download/) is not a Forensic Imaging Tool But it is a Forensic Image Analysis Tool & Also File Carving Tool.
+  > [Autopsy](https://www.autopsy.com/download/) is not a Forensic Imaging Tool But it is a Forensic Image Analysis Tool(Open Source) & Also File Carving Tool.
   > [KAPE](https://www.kroll.com/en/insights/publications/cyber/kape) is used for Browser Artifact Tool. 
 
 | Forensic Tool | Type | Description |
 |---|---|---|
 | [FTK Imager](https://www.exterro.com/ftk-product-downloads/ftk-imager-version-4-7-1) | Free | `Tool`: Imaging(Volatile & Non-Volatile), Carving, Mounting; `Uses`: file, disk & registry analysis |
 | [Encase](https://www.opentext.com/products/forensic) | Paid | `Tool`: Imaging, Carving; `Uses`: gathering & analysing digital evidence across computers, mobile devices & networks |
+| [ProDiscover Forensics](https://prodiscover.com/) | Paid | `Tool`: forensic software suite; `Uses`: capture & analyze disk images, recover deleted files & investigate data for evidence|
 | [dd/dc3dd](https://www.gnu.org/software/coreutils/manual/html_node/dd-invocation.html) | Free | Standard Unix utility used for bit-by-bit copying and creating raw disk images. |
 | [Guymager](https://guymager.sourceforge.io/) | Free | Open-source GUI forensic imager supporting raw and EWF image formats with detailed acquisition logs. |
+| [X-Ways Forensic](https://x-ways.net/forensics/) | Free | `Uses`: file carving, slack space analysis, advanced searching, & metadata extraction |
 
 ---
 
@@ -49,8 +51,9 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 
 | ForensicTool | Type | Description |
 |---|---|---|
-| [Volatility](https://volatilityfoundation.org/) | Free | `Uses`: Depth Analysis of RAM to detect malware, rootkits & other security incidnets | 
+| [Volatility](https://volatilityfoundation.org/) | Open Source | `Uses`: Depth Analysis of RAM to detect malware, rootkits & other security incidnets | 
 | [Redline](https://fireeye.market/apps/211364) | Free |  `Uses`: Disk/Memory forensic, `Focused`: identifying Potential Malware Infection & Persistence Mechanisms | 
+| [Rekall Framework](https://github.com/google/rekall) | Free |  `Uses`: Analyse memory dump for malware & rookit detection | 
 | [LiME](https://github.com/504ensicsLabs/LiME) | Free | Linux Memory Extractor used to acquire volatile memory from Linux and Android systems. |
 | [Velociraptor](https://github.com/Velocidex/velociraptor) | Free | Endpoint visibility, digital forensic collection, and incident-response platform capable of collecting volatile and persistent artifacts. |
 
@@ -63,7 +66,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | [Wireshark](https://www.wireshark.org/) | Free | `Uses`: allow user to capture, inspect & analyze data packets |
 | [tcpdump](https://www.tcpdump.org/) | Free | Command-line packet capture and network traffic analysis utility. |
 | [Suricata](https://suricata.io/) | Free | Open-source network threat detection engine supporting IDS, IPS, and network security monitoring. |
-| [NetworkMiner](https://www.netresec.com/?page=NetworkMiner)| Free | Network forensic analysis tool for extracting hosts, files, credentials, sessions, and other artifacts from captured traffic. |
+| [NetworkMiner](https://www.netresec.com/?page=NetworkMiner)| Free | `Uses`: capture & analyse network traffic; `Focus`: extracting files & metadata |
 
 ---
 
@@ -72,21 +75,22 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 |---|---|---|
 | [Oxygen Forensic](https://www.oxygenforensics.com/) | Cracked Free | `Uses`: extract & analyze data from smartphone, applications & cloud services |
 | [Cellebrite UFED](https://cellebrite.com/en/ufed/) | Paid | Commercial mobile-device acquisition and extraction platform. |
-| [Magnet AXIOM](https://www.magnetforensics.com/products/magnet-axiom/) | Paid | Commercial platform for examining mobile, computer, cloud, and other digital evidence. |
+| [Magnet AXIOM](https://www.magnetforensics.com/products/magnet-axiom/) | Paid | `Uses`: specializes in recovering digital evidence from mobile devices, computers & cloud services |
 | [iLEAPP](https://github.com/abrignoni/iLEAPP) | Free | Open-source tool for parsing iOS forensic artifacts. |
 | [ALEAPP](https://github.com/abrignoni/aLEAPP) | Free | Open-source tool for parsing Android forensic artifacts. |
+| [Bulk Extractor](https://github.com/simsong/bulk_extractor/wiki/Installing-bulk_extractor) | Free | `Uses`: scan media & extracts data like email addressses, URLs & credit card numbers useful for rapid evidence discovery |
 
 ---
 
 
 # Incident Response 
 
-| DFIR Tool | Description |
-|---|---|
-| [KAPE](https://www.kroll.com/en/insights/publications/cyber/kape) | Rapid collection and processing of Windows forensic artifacts. |
-| [Velociraptor](https://www.velociraptor.com/) | Endpoint monitoring, forensic collection, and incident-response platform. |
-| [Dissect](https://github.com/fox-it/Dissect) | Python-based DFIR framework for examining forensic evidence at scale. |
-
+| DFIR Tool | Type | Description |
+|---|---|---|
+| [KAPE](https://www.kroll.com/en/insights/publications/cyber/kape) | Free| Rapid collection and processing of Windows forensic artifacts. |
+| [Velociraptor](https://www.velociraptor.com/) | Free| Endpoint monitoring, forensic collection, and incident-response platform. |
+| [Dissect](https://github.com/fox-it/Dissect) | Free| Python-based DFIR framework for examining forensic evidence at scale. |
+| [CAINE(Linux)](https://www.caine-live.net/) | Open Source| `Uses`:  offers a range of tools for digital forensics, incident response, & evidence acquisition|
 
 ---
 
