@@ -150,7 +150,7 @@ Step 1: Download zip file from browser
 ```
 https://github.com/volatilityfoundation/volatility3
 ```
-Step 2: Download python 3 from cmd
+Step 2: Download python 3 from terminal
 ```
 winget install Python.Python.3.14
 ```
