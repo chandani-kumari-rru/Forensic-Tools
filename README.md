@@ -9,9 +9,9 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 
 | Purpose| GUI Tool | Command-Line Tool |
 |---|---|---|
-| Disk Imaging Tool| FTK Imager(windows),Encase, Lime(Linux), osxpmem(mac) |  |
+| Disk Imaging Tool| FTK Imager(windows),Encase, Lime(Linux), osxpmem(mac) | FTK |
 | Prevent Disk Writer Tool | FTK(Image mounting), Write Blocker| |
-| File Carving & Analyser Tool | FTK, Autopsy, PhotoRec| TSK |
+| File Carving & Analyser Tool | FTK, Autopsy, PhotoRec| FTK, TSK |
 | Browser Artifact | KAPE(windows) | |
 | Image Metadata Extraction | ExifTool| |
 | Live Memory Capture | FTK | Magnet DumpIt |
