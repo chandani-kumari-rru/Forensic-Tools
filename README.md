@@ -163,7 +163,7 @@ Check Version
 python vol.py --version
 ```
 Step 3: Capture Live Memory  
-Step 4: Run this command
+Step 4: Run this command for Windows info
 ```
 python vol.py -f <win-liveimg-fullpath> windows.info
 ```
