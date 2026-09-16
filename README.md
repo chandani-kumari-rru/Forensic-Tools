@@ -146,13 +146,21 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 
 # Tool Setup Procedure
 ## [Volatility 3 Setup](https://youtu.be/j6cHvcyXKZk?si=EFV6RHIsX1QYfYpq)
-Step 1: Download zip file from browser & Setup its Environment Variables Path (like C:\Users\Hp\Desktop\volatility3)
+Step 1: Download python 3 from terminal & Setup its Environment Variables Path (like C:\Users\Hp\AppData\Local\Programs\Python\Python314)
+```
+winget install Python.Python.3.14
+```
+Check Version
+```
+python --version
+```
+Step 2: Download zip file from browser & Setup its Environment Variables Path (like C:\Users\Hp\Desktop\volatility3)
 ```
 https://github.com/volatilityfoundation/volatility3
 ```
-Step 2: Download python 3 from terminal & Setup its Environment Variables Path (like C:\Users\Hp\AppData\Local\Programs\Python\Python314)
+Check Version
 ```
-winget install Python.Python.3.14
+python vol.py --version
 ```
 Step 3: Capture Live Memory
 Step 4: Run this command
