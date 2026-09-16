@@ -9,7 +9,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 
 | Purpose| GUI Tool | Command-Line Tool |
 |---|---|---|
-| Disk Imaging Tool| FTK Imager(windows), Encase | FTK, Encase |
+| Disk Imaging Tool| FTK Imager, Encase | FTK, Encase |
 | Prevent Disk Writer Tool | FTK(Image mounting), Write Blocker| |
 | File Carving & Analyser Tool | FTK, Autopsy, PhotoRec| FTK, TSK |
 | Image Metadata Extraction | ExifTool | |
