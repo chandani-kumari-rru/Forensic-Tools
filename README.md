@@ -172,7 +172,7 @@ Eg:
 > python vol.py -f C:\Users\Hp\Desktop\DumpIt\x64\ASUS-20260916-044657.dmp windows.info  
 
 Note:
-> ctrl+c => use for exit ongoing process
+> ctrl+c => use for exit running process
 ### Imp Volatility Command
 | Command             | Description                                                                            |
 | ------------------- | -------------------------------------------------------------------------------------- |
