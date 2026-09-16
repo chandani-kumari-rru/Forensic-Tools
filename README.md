@@ -164,10 +164,41 @@ python vol.py --version
 ```
 Step 3: Capture Live Memory  
 Step 4: Run this command for Windows info
+Syntax
 ```
-python vol.py -f <win-liveimg-fullpath> windows.info
+python vol.py -f <win-liveimg-fullpath> windows.<command>
 ```
-> Eg: python vol.py -f C:\Users\Hp\Desktop\DumpIt\x64\ASUS-20260916-044657.dmp windows.info
+Eg:
+> python vol.py -f C:\Users\Hp\Desktop\DumpIt\x64\ASUS-20260916-044657.dmp windows.info
+### Imp Volatility Command
+| Command             | Description                                                                            |
+| ------------------- | -------------------------------------------------------------------------------------- |
+| `info`              | Identifies the Windows version and basic information from the memory image.            |
+| `pslist`            | Lists processes that were active when the memory image was captured.                   |
+| `pstree`            | Displays processes in a parent-child tree structure.                                   |
+| `cmdline`           | Shows command-line arguments used to launch processes.                                 |
+| `netscan`           | Scans memory for network connections and listening sockets.                            |
+| `dlllist`           | Lists DLLs loaded by processes.                                                        |
+| `malfind`           | Searches for potentially suspicious or injected code in process memory.                |
+| `handles`           | Lists handles opened by processes, such as files, registry keys, and events.           |
+| `filescan`          | Scans memory for file objects and file-related artifacts.                              |
+| `registry.hivelist` | Lists registry hives found in the memory image.                                        |
+| `registry.printkey` | Displays registry key information from a specified registry hive.                      |
+| `getsids`           | Displays security identifiers (SIDs) associated with processes.                        |
+| `privs`             | Shows privileges associated with processes.                                            |
+| `psscan`            | Scans memory for process structures, including processes that may no longer be active. |
+| `memmap`            | Displays the virtual memory mappings of a process.                                     |
+| `vadinfo`           | Displays Virtual Address Descriptor (VAD) information for process memory regions.      |
+| `vadwalk`           | Walks the VAD tree to examine a process's virtual memory regions.                      |
+| `modscan`           | Scans memory for loaded kernel modules.                                                |
+| `modules`           | Lists kernel modules loaded in the Windows memory image.                               |
+| `driverirp`         | Examines IRP handlers associated with Windows drivers.                                 |
+| `svcscan`           | Scans memory for Windows services.                                                     |
+| `scheduled_tasks`   | Examines scheduled tasks present in the memory image.                                  |
+| `consoles`          | Extracts Windows console history and command information when available.               |
+| `envars`            | Displays environment variables associated with processes.                              |
+| `pslist --pid 1234` | Displays information for a specific process using its PID.                             |
+
 ## TSK Setup
 
 
