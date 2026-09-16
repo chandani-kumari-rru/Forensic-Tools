@@ -12,10 +12,10 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | Disk Imaging Tool| FTK Imager(windows),Encase, Lime(Linux), osxpmem(mac) | FTK |
 | Prevent Disk Writer Tool | FTK(Image mounting), Write Blocker| |
 | File Carving & Analyser Tool | FTK, Autopsy, PhotoRec| FTK, TSK |
-| Browser Artifact | KAPE(windows) | |
-| Image Metadata Extraction | ExifTool| |
+| Image Metadata Extraction | ExifTool | |
+| Browser Artifact | KAPE(windows) | KAPE |
 | Live Memory Capture | FTK | Magnet DumpIt |
-| Memory Analysis | Volatility Workbench, Kape, Redline | Volatility, Kape|
+| Memory Analysis | Volatility Workbench, Redline | Volatility |
 | Network Forensic | Wireshark| |
 | Mobile Forensics | Oxygen, MOBILedit | Cellebrite UFED, Magnet AXIOM |
 
