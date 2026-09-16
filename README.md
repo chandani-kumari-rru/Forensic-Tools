@@ -46,12 +46,12 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 
 # Memory Forensic Tools
 
-| ForensicTool | Description |
-|---|---|
-| [Volatility](https://volatilityfoundation.org/) | Open-source memory forensics framework for analyzing RAM captures and extracting processes, network information, handles, DLLs, and other artifacts. | 
-| [Redline](https://fireeye.market/apps/211364) |  its a free tool *Uses for Disk/Memory forensic*, focused on identifying *Potential Malware Infection* & *Persistence Mechanisms*. | 
-| [LiME](https://github.com/504ensicsLabs/LiME) | Linux Memory Extractor used to acquire volatile memory from Linux and Android systems. |
-| [Velociraptor](https://github.com/Velocidex/velociraptor) | Endpoint visibility, digital forensic collection, and incident-response platform capable of collecting volatile and persistent artifacts. |
+| ForensicTool | Type | Description |
+|---|---|---|
+| [Volatility](https://volatilityfoundation.org/) | Free | Open-source memory forensics framework for analyzing RAM captures and extracting processes, network information, handles, DLLs, and other artifacts. | 
+| [Redline](https://fireeye.market/apps/211364) | Free |  `Uses`: for Disk/Memory forensic, `Focused`: identifying Potential Malware Infection & Persistence Mechanisms | 
+| [LiME](https://github.com/504ensicsLabs/LiME) | Free | Linux Memory Extractor used to acquire volatile memory from Linux and Android systems. |
+| [Velociraptor](https://github.com/Velocidex/velociraptor) | Free | Endpoint visibility, digital forensic collection, and incident-response platform capable of collecting volatile and persistent artifacts. |
 
 ---
 
