@@ -39,7 +39,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | Forensic Tool | Type | Description |
 |---|---|---|
 | [FTK Imager](https://www.exterro.com/ftk-product-downloads/ftk-imager-version-4-7-1) | Free | `Tool`: Imaging(Volatile & Non-Volatile), Carving, Mounting; `Uses`: file, disk & registry analysis |
-| [Encase](https://www.opentext.com/products/forensic) | Paid | `Tool`: Imaging, Carving; `Uses`: gathering & analysing digital evidence across computers, mobile devices & networs |
+| [Encase](https://www.opentext.com/products/forensic) | Paid | `Tool`: Imaging, Carving; `Uses`: gathering & analysing digital evidence across computers, mobile devices & networks |
 | [dd/dc3dd](https://www.gnu.org/software/coreutils/manual/html_node/dd-invocation.html) | Free | Standard Unix utility used for bit-by-bit copying and creating raw disk images. |
 | [Guymager](https://guymager.sourceforge.io/) | Free | Open-source GUI forensic imager supporting raw and EWF image formats with detailed acquisition logs. |
 
