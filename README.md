@@ -17,7 +17,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | Live Memory Capture | FTK | FTK, Magnet DumpIt |
 | Memory Analysis | Volatility Workbench, Redline | Volatility |
 | Network Forensic | Wireshark| |
-| Mobile Forensics | Oxygen, MOBILedit | Cellebrite UFED, Magnet AXIOM |
+| Mobile Forensics | Oxygen, MOBILedit, Cellebrite UFED, Magnet AXIOM | |
 
 ---
 ## 📑 Table of Contents
