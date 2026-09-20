@@ -13,7 +13,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | Disable Disk Writer | FTK Imager(Image mounting), Write Blocker| |
 | File Carving & Analyser Tool | FTK Imager, Autopsy, PhotoRec| FTK, TSK |
 | Image Metadata Extraction | [ExifTool](https://exiftool.org/) | |
-| Browser Artifact | KAPE | KAPE |
+| Incident Response Triage Utilities | KAPE, [Magnet Response](https://www.magnetforensics.com/resources/magnet-response/) | KAPE |
 | Live Memory Capture | FTK, [Magnet Ram Capture](https://www.magnetforensics.com/resources/magnet-ram-capture/) | FTK, [Magnet DumpIt](https://www.magnetforensics.com/resources/magnet-dumpit-for-windows/) |
 | Memory Analysis | Volatility Workbench, Redline | Volatility |
 | Email Forensic | [Thunderbird](https://www.thunderbird.net/) | extract email artifacts|
