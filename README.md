@@ -10,12 +10,12 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | Tool Purpose| GUI Tool | Command-Line Tool |
 |---|---|---|
 | Encrypted Detection | | [Magnet Encrypt Detector](https://www.magnetforensics.com/resources/encrypted-disk-detector/) | 
-| Disk Imaging Tool| FTK Imager, Encase | FTK, Encase |
+| Disk Imaging Tool| FTK Imager, Encase | Encase |
 | Disable Disk Writer | FTK, Write Blocker, Arsenal Image Mounter| |
-| File Carving & Analyser Tool | FTK Imager, Autopsy, PhotoRec| FTK, TSK |
+| File Carving & Analyser Tool | FTK Imager, Autopsy, PhotoRec| TSK |
 | Image Metadata Extraction | [ExifTool](https://exiftool.org/) | |
 | Windows Artifact | [Eric Zimmerman Tools](https://ericzimmerman.github.io/#requirements-and-troubleshooting),  [Nirsoft](https://www.nirsoft.net/), [Reg ripper](https://github.com/keydet89/RegRipper3.0), [Autopsy](https://www.autopsy.com/download/) |
-| Live Memory Capture | FTK, [Magnet Ram Capture](https://www.magnetforensics.com/resources/magnet-ram-capture/) | FTK, [Magnet DumpIt](https://www.magnetforensics.com/resources/magnet-dumpit-for-windows/) |
+| Live Memory Capture | [Magnet Ram Capture](https://www.magnetforensics.com/resources/magnet-ram-capture/) | [Magnet DumpIt](https://www.magnetforensics.com/resources/magnet-dumpit-for-windows/) |
 | Memory Analysis | Volatility Workbench, Redline | Volatility |
 | Email Forensic | [Thunderbird](https://www.thunderbird.net/) | |
 | Network Forensic | Wireshark| |
