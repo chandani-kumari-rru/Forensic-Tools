@@ -14,11 +14,12 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | Disable Disk Writer | FTK Imager(Image mounting), Write Blocker| |
 | File Carving & Analyser Tool | FTK Imager, Autopsy, PhotoRec| FTK, TSK |
 | Image Metadata Extraction | [ExifTool](https://exiftool.org/) | |
-| Incident Response Triage Utilities | KAPE, [Magnet Response](https://www.magnetforensics.com/resources/magnet-response/) | KAPE |
+| Windows Artifact | [Eric Zimmerman Tools](https://ericzimmerman.github.io/#requirements-and-troubleshooting),  [Nirsoft](https://www.nirsoft.net/), [Reg ripper](https://github.com/keydet89/RegRipper3.0), [Autopsy](https://www.autopsy.com/download/) |
 | Live Memory Capture | FTK, [Magnet Ram Capture](https://www.magnetforensics.com/resources/magnet-ram-capture/) | FTK, [Magnet DumpIt](https://www.magnetforensics.com/resources/magnet-dumpit-for-windows/) |
 | Memory Analysis | Volatility Workbench, Redline | Volatility |
 | Email Forensic | [Thunderbird](https://www.thunderbird.net/) | extract email artifacts|
 | Network Forensic | Wireshark| |
+| Incident Response Triage Utilities | KAPE, [Magnet Response](https://www.magnetforensics.com/resources/magnet-response/) | KAPE |
 | Mobile Forensics | Oxygen, MOBILedit, Cellebrite UFED, Magnet AXIOM | |
 
 ---
