@@ -20,7 +20,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | Email Forensic | [Thunderbird](https://www.thunderbird.net/) | |
 | Network Forensic | Wireshark| |
 | Incident Response Triage Utilities | KAPE, [Magnet Response](https://www.magnetforensics.com/resources/magnet-response/), [Plaso](https://github.com/log2timeline/plaso) | KAPE |
-| Data Triage Tool | [SysInternal](https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite) | |
+| Data Triage Tool | [SysInternal](https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite), Loki | |
 | Mobile Forensics | Oxygen, MOBILedit, Cellebrite UFED, Magnet AXIOM | |
 
 ---
