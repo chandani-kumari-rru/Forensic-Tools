@@ -14,7 +14,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | File Carving & Analyser Tool | FTK Imager, Autopsy, PhotoRec| FTK, TSK |
 | Image Metadata Extraction | [ExifTool](https://exiftool.org/) | |
 | Browser Artifact | KAPE | KAPE |
-| Live Memory Capture | FTK Imager | FTK, [Magnet DumpIt](https://www.magnetforensics.com/resources/magnet-dumpit-for-windows/), [Magnet Ram Capture](https://www.magnetforensics.com/resources/magnet-ram-capture/) |
+| Live Memory Capture | FTK, [Magnet Ram Capture](https://www.magnetforensics.com/resources/magnet-ram-capture/) | FTK, [Magnet DumpIt](https://www.magnetforensics.com/resources/magnet-dumpit-for-windows/) |
 | Memory Analysis | Volatility Workbench, Redline | Volatility |
 | Email Forensic | [Thunderbird](https://www.thunderbird.net/) | extract email artifacts|
 | Network Forensic | Wireshark| |
