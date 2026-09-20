@@ -55,7 +55,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | ForensicTool | Type | Description |
 |---|---|---|
 | [Eric Zimmerman Tools](https://ericzimmerman.github.io/#requirements-and-troubleshooting) | Free | Full tool Suits |
-| [Nirsoft](https://www.nirsoft.net/) | Free | Full tool suits |
+| [Nirsoft](https://www.nirsoft.net/) | Free | Full tool Suits |
 | [Reg ripper](https://github.com/keydet89/RegRipper3.0) | Free | For Registry Hives |
 | [Autopsy](https://www.autopsy.com/download/) | Free |  |
 
