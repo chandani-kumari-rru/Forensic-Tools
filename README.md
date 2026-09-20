@@ -11,7 +11,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 |---|---|---|
 | Encrypted Detection | | [Magnet Encrypt Detector](https://www.magnetforensics.com/resources/encrypted-disk-detector/) | 
 | Disk Imaging Tool| FTK Imager, Encase | FTK, Encase |
-| Disable Disk Writer | FTK Imager(Image mounting), Write Blocker| |
+| Disable Disk Writer | FTK, Write Blocker, Arsenal Image Mounter| |
 | File Carving & Analyser Tool | FTK Imager, Autopsy, PhotoRec| FTK, TSK |
 | Image Metadata Extraction | [ExifTool](https://exiftool.org/) | |
 | Windows Artifact | [Eric Zimmerman Tools](https://ericzimmerman.github.io/#requirements-and-troubleshooting),  [Nirsoft](https://www.nirsoft.net/), [Reg ripper](https://github.com/keydet89/RegRipper3.0), [Autopsy](https://www.autopsy.com/download/) |
