@@ -50,6 +50,17 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 
 ---
 
+# Browser Artifact Tools
+
+| ForensicTool | Type | Description |
+|---|---|---|
+| [Eric Zimmerman Tools](https://ericzimmerman.github.io/#requirements-and-troubleshooting) | Free | Full tool Suits |
+| [Nirsoft](https://www.nirsoft.net/) | Free | Full tool suits |
+| [Reg ripper](https://github.com/keydet89/RegRipper3.0) | Free | For Registry Hives |
+| [Autopsy](https://www.autopsy.com/download/) | Free |  |
+
+---
+
 # Memory Forensic Tools
 
 | ForensicTool | Type | Description |
