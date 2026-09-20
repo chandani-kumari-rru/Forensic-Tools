@@ -9,6 +9,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 
 | Tool Purpose| GUI Tool | Command-Line Tool |
 |---|---|---|
+| Encrypted Detection | [Magnet Encrypt Detector](https://www.magnetforensics.com/resources/encrypted-disk-detector/) | |
 | Disk Imaging Tool| FTK Imager, Encase | FTK, Encase |
 | Disable Disk Writer | FTK Imager(Image mounting), Write Blocker| |
 | File Carving & Analyser Tool | FTK Imager, Autopsy, PhotoRec| FTK, TSK |
