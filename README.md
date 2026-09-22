@@ -9,7 +9,8 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | Tool Purpose| GUI Tool | Command-Line Tool |
 |---|---|---|
 | Encrypted Detection | | [Magnet Encrypt Detector](https://www.magnetforensics.com/resources/encrypted-disk-detector/) | 
-| Disk Imaging Tool| FTK Imager, Encase | Encase |
+| Disk Imaging Tool | FTK, Encase | dd |
+| Forensic Analysis Suites | Autopsy, FTK, X-Ways Forensic | |
 | Disable Disk Writer | FTK, Write Blocker, Arsenal Image Mounter| |
 | File Carving & Analyser Tool | FTK Imager, Autopsy, PhotoRec| TSK |
 | Image Metadata Extraction | [ExifTool](https://exiftool.org/) | |
@@ -18,7 +19,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | Live Memory Capture | [Magnet Ram Capture](https://www.magnetforensics.com/resources/magnet-ram-capture/) | [Magnet DumpIt](https://www.magnetforensics.com/resources/magnet-dumpit-for-windows/) |
 | Memory Analysis | Volatility Workbench, Redline | Volatility |
 | Email Forensic | [Thunderbird](https://www.thunderbird.net/) | |
-| Network Forensic | Wireshark| |
+| Network Forensic | Wireshark, NetworkMiner| tcpdump |
 | Incident Response Triage Utilities | KAPE, [Magnet Response](https://www.magnetforensics.com/resources/magnet-response/), [Plaso](https://github.com/log2timeline/plaso) | KAPE |
 | Data Triage Tool | [SysInternal](https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite), Loki | |
 | Mobile Forensic | Oxygen, MOBILedit, Cellebrite UFED, Magnet AXIOM | |
