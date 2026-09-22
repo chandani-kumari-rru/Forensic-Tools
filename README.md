@@ -21,7 +21,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | Memory Analysis | Volatility Workbench, Redline | Volatility |
 | Email Forensic | [Thunderbird](https://www.thunderbird.net/) | |
 | Network Forensic | Wireshark, NetworkMiner| tcpdump |
-| Incident Response Triage Utilities | KAPE, [Magnet Response](https://www.magnetforensics.com/resources/magnet-response/), [Plaso](https://github.com/log2timeline/plaso) | KAPE, [Chainsaw](https://github.com/WithSecureOpenSource/chainsaw/) |
+| Incident Response Tool | KAPE, [Magnet Response](https://www.magnetforensics.com/resources/magnet-response/), [Plaso](https://github.com/log2timeline/plaso) | KAPE |
 | Data Triage Tool | [SysInternal](https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite), Loki | |
 | Mobile Forensic | Oxygen, MOBILedit, Cellebrite UFED, Magnet AXIOM | |
 | Carmera Forensic | [EZ Tool](https://global.uniview.com/Support/Download_Center/Tool/201502/787314_168459_0.htm) | |
