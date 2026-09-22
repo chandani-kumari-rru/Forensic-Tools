@@ -1,7 +1,7 @@
 # Forensic-Tools
 
 A curated collection of **Digital Forensics, Cyber Forensics, and Incident Response tools**, organized by their primary forensic use case.
-> `Stages of Digital Forensic`: Identification --> Preservation --> Collection --> Analysis --> Documentation --> Presentation --> Review 
+- *Stages of Digital Forensic*: `Identification` --> `Preservation` --> `Collection` --> `Analysis` --> `Documentation` --> `Presentation` --> `Review` 
 
 ---
 # 🔎 Quick Review Forensic Tools
