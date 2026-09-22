@@ -12,7 +12,8 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | Disk Imaging Tool | FTK, Encase | dd |
 | Forensic Analysis Suites | Autopsy, FTK, X-Ways Forensic | |
 | Disable Disk Writer | FTK, Write Blocker, Arsenal Image Mounter| |
-| File Carving & Analyser Tool | FTK Imager, Autopsy, PhotoRec| TSK |
+| Timeline Analysis Tools | Plaso, log2timeline| Sleuth Kit |
+| OSINT Tools | Maltego, theHarvester, Shodan | |
 | Image Metadata Extraction | [ExifTool](https://exiftool.org/) | |
 | Windows Artifact | [Eric Zimmerman Tools](https://ericzimmerman.github.io/#requirements-and-troubleshooting),  [Nirsoft](https://launcher.nirsoft.net/downloads/index.html), [Reg ripper](https://github.com/keydet89/RegRipper3.0), [Autopsy](https://www.autopsy.com/download/) |
 | Browser Forensic | [Hindisight](https://github.com/RyanDFIR/hindsight) | |
