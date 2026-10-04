@@ -26,7 +26,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | Mobile Forensic | Oxygen, MOBILedit, Cellebrite UFED, Magnet AXIOM | |
 | Carmera Forensic | [EZ Tool](https://global.uniview.com/Support/Download_Center/Tool/201502/787314_168459_0.htm) | |
 
-<img src="img/forensic-tools.jpg" alt="forensic-tools" width="900">
+<img src="img/forensic-tools.jpg" alt="forensic-tools" height="500" width="800">
 ---
 ## 📑 Table of Contents
 
