@@ -10,7 +10,8 @@ Before Move on Tools, let's see basics of Digital Forensic
   - Software Forensic (like Browser Forensic, Email Forensic, What's Forensic ..etc)
   - Multimedia Forensic: Image/Audio/Video
   - Wireless Forensic (like IoT & Cloud Forensic)
-  - Database Forensic
+  - Database Forensic  
+
 A curated collection of **Digital Forensics, Cyber Forensics, and Incident Response tools**, organized by their primary forensic use case.
 - *Stages of DFIR*: `Identification` --> `Preservation` --> `Collection` --> `Analysis` --> `Documentation` --> `Presentation` --> `Review` 
 
