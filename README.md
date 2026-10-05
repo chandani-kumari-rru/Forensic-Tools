@@ -234,6 +234,10 @@ Note:
 
 
 # References
+|Test Images|Description|
+|---|---|
+|[Corpora](https://digitalcorpora.org/)|Free|
+|[dfir.training](https://www.dfir.training/forensic-test-images/)|Free|
 <img src="img/DiskSources.png" alt="Description" width="900">
 <img src="img/MemorySources.png" alt="Description" width="900">
 <img src="img/NetworkSources.png" alt="Description" width="900">
