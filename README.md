@@ -21,7 +21,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | Tools | GUI Tools | Command-Line Tools |
 |---|---|---|
 | Disk Encryption | | [Magnet Encrypt Detector](https://www.magnetforensics.com/resources/encrypted-disk-detector/) | 
-| Disk Imaging Tool | FTK, Encase | dd |
+| Disk Imaging Tool | FTK, Encase | dc3dd |
 | Forensic Analysis Suites | Autopsy, FTK, X-Ways Forensic | |
 | Disable Disk Writer | FTK, Write Blocker, Arsenal Image Mounter| |
 | Timeline Analysis Tools | Plaso, log2timeline| Sleuth Kit |
