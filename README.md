@@ -236,8 +236,8 @@ Note:
 # References
 |Test Images|Description|
 |---|---|
-|[Corpora](https://digitalcorpora.org/)|Free|
-|[dfir.training](https://www.dfir.training/forensic-test-images/)|Free|
+|[Corpora](https://digitalcorpora.org/)|Cell Phone Dumps, Disk Images, Files, Network Packet Dumps, Scenarios|
+|[dfir.training](https://www.dfir.training/forensic-test-images/)|ALL|
 <img src="img/DiskSources.png" alt="Description" width="900">
 <img src="img/MemorySources.png" alt="Description" width="900">
 <img src="img/NetworkSources.png" alt="Description" width="900">
