@@ -18,7 +18,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 ---
 # 🔎 Quick Review Forensic Tools
 
-| Tool Purpose| GUI Tool | Command-Line Tool |
+| Tools | GUI Tools | Command-Line Tools |
 |---|---|---|
 | Disk Encryption | | [Magnet Encrypt Detector](https://www.magnetforensics.com/resources/encrypted-disk-detector/) | 
 | Disk Imaging Tool | FTK, Encase | dd |
