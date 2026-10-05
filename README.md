@@ -28,7 +28,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | OSINT Tools | Maltego, theHarvester, Shodan | |
 | Windows Artifact | [Eric Zimmerman Tools](https://ericzimmerman.github.io/#requirements-and-troubleshooting),  [Nirsoft](https://launcher.nirsoft.net/downloads/index.html), [Reg ripper](https://github.com/keydet89/RegRipper3.0), [Autopsy](https://www.autopsy.com/download/) |
 | Volatile Memory Capture | [Magnet Ram Capture](https://www.magnetforensics.com/resources/magnet-ram-capture/) | [Magnet DumpIt](https://www.magnetforensics.com/resources/magnet-dumpit-for-windows/) |
-| Memory Analysis | Volatility Workbench, Redline | Volatility |
+| Memory Analysis | Volatility-Workbench, Redline | Volatility3 |
 | Software Forensic | Browser:[Hindisight](https://github.com/RyanDFIR/hindsight); Email:[Thunderbird](https://www.thunderbird.net/);
 | Network Forensic | Wireshark, NetworkMiner| tcpdump |
 | Incident Response Tool | KAPE, [Magnet Response](https://www.magnetforensics.com/resources/magnet-response/), [Plaso](https://github.com/log2timeline/plaso) | KAPE |
