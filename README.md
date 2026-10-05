@@ -31,7 +31,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | Memory Analysis | Volatility-Workbench, Redline | Volatility3 |
 | Network Forensic | Wireshark, NetworkMiner| tcpdump |
 | Software Forensic | Browser:[Hindisight](https://github.com/RyanDFIR/hindsight); Email:[Thunderbird](https://www.thunderbird.net/);
-| Multimedia Forensic | Audio:[Audacity](https://www.audacityteam.org/download/windows/), [DC Forensics](https://diamondcut.com/product/diamond-cut-forensics-10-6-audio-laboratory/); Video/Image:[Amped FIVE](https://ampedsoftware.com/five); Image Metadata: [ExifTool](https://exiftool.org/) | |
+| Multimedia Forensic | Audio:[Audacity](https://www.audacityteam.org/download/windows/), [DC Forensics](https://diamondcut.com/product/diamond-cut-forensics-10-6-audio-laboratory/); Video/Image:[Amped FIVE](https://ampedsoftware.com/five); Image: [ExifTool](https://exiftool.org/) | |
 | Mobile Forensic | Oxygen, MOBILedit, Cellebrite UFED, Magnet AXIOM | |
 | Carmera Forensic | [EZ Tool](https://global.uniview.com/Support/Download_Center/Tool/201502/787314_168459_0.htm) | |
 | -- | -- | -- |
