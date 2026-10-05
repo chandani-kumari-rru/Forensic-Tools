@@ -1,5 +1,16 @@
-# Forensic-Tools
 
+
+# Forensic-Tools
+Before Move on Tools, let's see basics of Digital Forensic
+- Types of Digital Forensic 
+  - Devices Forensic: => Computer/Mobile/Camera/Drone ............etc
+    - Computer Forensic => Artificat+Netowork+Memory+Multimedia+Cloud
+  - Network Forensic
+  - Memory Forensic
+  - Software Forensic (like Browser Forensic, Email Forensic, What's Forensic ..etc)
+  - Multimedia Forensic: Image/Audio/Video
+  - Wireless Forensic (like IoT & Cloud Forensic)
+  - Database Forensic
 A curated collection of **Digital Forensics, Cyber Forensics, and Incident Response tools**, organized by their primary forensic use case.
 - *Stages of DFIR*: `Identification` --> `Preservation` --> `Collection` --> `Analysis` --> `Documentation` --> `Presentation` --> `Review` 
 
