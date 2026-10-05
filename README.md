@@ -34,7 +34,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | Multimedia Forensic | Audio:[Audacity](https://www.audacityteam.org/download/windows/); Video: ; Image:[ExifTool](https://exiftool.org/) | |
 | Mobile Forensic | Oxygen, MOBILedit, Cellebrite UFED, Magnet AXIOM | |
 | Carmera Forensic | [EZ Tool](https://global.uniview.com/Support/Download_Center/Tool/201502/787314_168459_0.htm) | |
-| | | |
+| -- | -- | -- |
 | Incident Response Tool | KAPE, [Magnet Response](https://www.magnetforensics.com/resources/magnet-response/), [Plaso](https://github.com/log2timeline/plaso) | KAPE |
 | Data Triage Tool | [SysInternal](https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite), Loki | |
 
