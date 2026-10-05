@@ -37,7 +37,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | -- | -- | -- |
 | Incident Response Tool | KAPE, [Magnet Response](https://www.magnetforensics.com/resources/magnet-response/), [Plaso](https://github.com/log2timeline/plaso) | KAPE |
 | Data Triage Tool | [SysInternal](https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite), Loki | |
-
+|DFIR|[Cyber Triage](https://www.cybertriage.com/)||
 
 <p align="center"><img src="img/forensic-tools.jpg" alt="forensic-tools" height="450" width="900"></p>  
   
