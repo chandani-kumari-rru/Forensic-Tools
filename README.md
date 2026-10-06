@@ -29,7 +29,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | Windows Artifact | [Eric Zimmerman Tools](https://ericzimmerman.github.io/#requirements-and-troubleshooting),  [Nirsoft](https://launcher.nirsoft.net/downloads/index.html), [Reg ripper](https://github.com/keydet89/RegRipper3.0), [Autopsy](https://www.autopsy.com/download/) |
 | Volatile Memory Capture | [Magnet Ram Capture](https://www.magnetforensics.com/resources/magnet-ram-capture/) | [Magnet DumpIt](https://www.magnetforensics.com/resources/magnet-dumpit-for-windows/) |
 | Memory Analysis | Volatility-Workbench, Redline | Volatility3 |
-| Network Forensic | Wireshark, NetworkMiner| tcpdump |
+| Network Forensic | Wireshark, NetMirror| tcpdump |
 | Software Forensic | Browser:[Hindisight](https://github.com/RyanDFIR/hindsight); Email:[Thunderbird](https://www.thunderbird.net/);
 | Multimedia Forensic | Audio:[Audacity](https://www.audacityteam.org/download/windows/), [DC Forensics](https://diamondcut.com/product/diamond-cut-forensics-10-6-audio-laboratory/); Video/Image:[Amped FIVE](https://ampedsoftware.com/five); Image: [ExifTool](https://exiftool.org/) | |
 | Mobile Forensic | Oxygen, MOBILedit, Cellebrite UFED, Magnet AXIOM | |
