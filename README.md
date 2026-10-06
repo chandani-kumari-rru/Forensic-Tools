@@ -25,7 +25,6 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | Forensic Analysis Suites | Autopsy, FTK, X-Ways Forensic | |
 | Disable Disk Writer | FTK, Write Blocker, Arsenal Image Mounter| |
 | Timeline Analysis Tools | Plaso, log2timeline| Sleuth Kit |
-| OSINT Tools | Maltego, theHarvester, Shodan | |
 | Windows Artifact | [Eric Zimmerman Tools](https://ericzimmerman.github.io/#requirements-and-troubleshooting),  [Nirsoft](https://launcher.nirsoft.net/downloads/index.html), [Reg ripper](https://github.com/keydet89/RegRipper3.0), [Autopsy](https://www.autopsy.com/download/) |
 | Volatile Memory Capture | [Magnet Ram Capture](https://www.magnetforensics.com/resources/magnet-ram-capture/) | [Magnet DumpIt](https://www.magnetforensics.com/resources/magnet-dumpit-for-windows/) |
 | Memory Analysis | Volatility-Workbench, Redline | Volatility3 |
@@ -35,6 +34,7 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 | Mobile Forensic | Oxygen, MOBILedit, Cellebrite UFED, Magnet AXIOM | |
 | Carmera Forensic | [EZ Tool](https://global.uniview.com/Support/Download_Center/Tool/201502/787314_168459_0.htm) | |
 | -- | -- | -- |
+| OSINT Tools | Maltego, theHarvester, Shodan | |
 | Incident Response Tool | KAPE, [Magnet Response](https://www.magnetforensics.com/resources/magnet-response/), [Plaso](https://github.com/log2timeline/plaso) | KAPE |
 | Data Triage Tool | [SysInternal](https://learn.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite), Loki | |
 |DFIR|[Cyber Triage](https://www.cybertriage.com/)||
