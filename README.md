@@ -233,7 +233,7 @@ Note:
 
 
 ### Forensic Cases
-|Cases|Forensic Division|Download|
+|Cases|What to Do|Download|
 |---|---|---|
 |Kolkata Case|Malware Analysis, Log Analysis, Intercept Audio|[CLICK](https://drive.google.com/drive/folders/1eDB2BJTGY8g_397PJA1mzj4DK0tdOivV)|
 ||||
