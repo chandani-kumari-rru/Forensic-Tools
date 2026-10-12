@@ -234,6 +234,7 @@ Note:
 
 ### Forensic Cases
 |Cases|Forensic Division|
+|---|---|
 |1|Windows Artifact Analysis, Multimedia Forensic|
 |||
 
