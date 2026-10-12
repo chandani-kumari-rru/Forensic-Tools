@@ -51,7 +51,8 @@ A curated collection of **Digital Forensics, Cyber Forensics, and Incident Respo
 - [Incident Response](#incident-response)
 - [Forensic Workflow](#forensics-workflow)
 - [Tool Setup Procedure](#tool-setup-procedure)
-- [Sample Images References](#references)
+- [Sample Forensic Cases](#forensic-cases)
+- [Sample Test Images](#test-images)
 ---
 
 # Forensic Imaging and Carving Tools
@@ -231,9 +232,12 @@ Note:
 ## [TSK Setup](https://youtu.be/EUQ-Gj9VmsE?si=zS3hO7nu9Z1mm0oH)
 
 
+### Forensic Cases
+|Cases|Forensic Division|
+|1|Windows Artifact Analysis, Multimedia Forensic|
+|||
 
-
-# References
+# Test Images
 |Test Images|Description|
 |---|---|
 |[Corpora](https://digitalcorpora.org/)|Cell Phone Dumps, Disk Images, Files, Network Packet Dumps, Scenarios|
